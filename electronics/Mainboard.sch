@@ -24412,7 +24412,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <pinref part="U22" gate="A" pin="VDD_1"/>
 <wire x1="121.92" y1="127" x2="129.54" y2="127" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="129.54" x2="114.3" y2="129.54" width="0.1524" layer="91"/>
-<label x="73.66" y="129.54" size="1.778" layer="95"/>
+<label x="81.28" y="129.54" size="1.778" layer="95"/>
 <pinref part="C13" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="129.54" x2="104.14" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="129.54" x2="93.98" y2="129.54" width="0.1524" layer="91"/>
@@ -24433,7 +24433,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <segment>
 <pinref part="U22" gate="A" pin="VDDA"/>
 <wire x1="129.54" y1="137.16" x2="111.76" y2="137.16" width="0.1524" layer="91"/>
-<label x="91.44" y="137.16" size="1.778" layer="95"/>
+<label x="99.06" y="137.16" size="1.778" layer="95"/>
 <pinref part="C12" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="137.16" x2="99.06" y2="137.16" width="0.1524" layer="91"/>
 <junction x="111.76" y="137.16"/>
@@ -24637,7 +24637,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <pinref part="U40" gate="A" pin="VDD_1"/>
 <wire x1="767.08" y1="137.16" x2="774.7" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="767.08" y1="139.7" x2="759.46" y2="139.7" width="0.1524" layer="91"/>
-<label x="718.82" y="139.7" size="1.778" layer="95"/>
+<label x="726.44" y="139.7" size="1.778" layer="95"/>
 <pinref part="C54" gate="G$1" pin="1"/>
 <wire x1="759.46" y1="139.7" x2="749.3" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="749.3" y1="139.7" x2="739.14" y2="139.7" width="0.1524" layer="91"/>
@@ -24658,7 +24658,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <segment>
 <pinref part="U40" gate="A" pin="VDDA"/>
 <wire x1="774.7" y1="147.32" x2="756.92" y2="147.32" width="0.1524" layer="91"/>
-<label x="736.6" y="147.32" size="1.778" layer="95"/>
+<label x="744.22" y="147.32" size="1.778" layer="95"/>
 <pinref part="C53" gate="G$1" pin="2"/>
 <wire x1="756.92" y1="147.32" x2="744.22" y2="147.32" width="0.1524" layer="91"/>
 <junction x="756.92" y="147.32"/>
@@ -26622,7 +26622,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <label x="668.02" y="281.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$109" class="0">
+<net name="LC2_OSC_IN" class="0">
 <segment>
 <pinref part="Y8" gate="G$1" pin="OSC1"/>
 <wire x1="873.76" y1="149.86" x2="866.14" y2="149.86" width="0.1524" layer="91"/>
@@ -26633,9 +26633,10 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <junction x="873.76" y="149.86"/>
 <pinref part="C59" gate="G$1" pin="1"/>
 <wire x1="873.76" y1="154.94" x2="886.46" y2="154.94" width="0.1524" layer="91"/>
+<label x="835.66" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$110" class="0">
+<net name="LC2_OSC_OUT" class="0">
 <segment>
 <pinref part="Y8" gate="G$1" pin="OSC2"/>
 <wire x1="904.24" y1="137.16" x2="909.32" y2="137.16" width="0.1524" layer="91"/>
@@ -26648,6 +26649,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="894.08" y1="129.54" x2="904.24" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="904.24" y1="129.54" x2="904.24" y2="137.16" width="0.1524" layer="91"/>
 <junction x="904.24" y="137.16"/>
+<label x="835.66" y="139.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LC_2_RDY1" class="0">
@@ -28779,70 +28781,14 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <label x="414.02" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="BT2_8_AIN1_+" class="0">
-<segment>
-<pinref part="J42" gate="G$1" pin="3"/>
-<wire x1="345.44" y1="78.74" x2="342.9" y2="78.74" width="0.1524" layer="91"/>
-<label x="325.12" y="78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="BT2_8_AIN1_-" class="0">
-<segment>
-<pinref part="J42" gate="G$1" pin="4"/>
-<wire x1="345.44" y1="76.2" x2="342.9" y2="76.2" width="0.1524" layer="91"/>
-<label x="325.12" y="76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="BT2_8_AIN2_+" class="0">
-<segment>
-<pinref part="J41" gate="G$1" pin="3"/>
-<wire x1="302.26" y1="78.74" x2="299.72" y2="78.74" width="0.1524" layer="91"/>
-<label x="281.94" y="78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="BT2_8_AIN2_-" class="0">
-<segment>
-<pinref part="J41" gate="G$1" pin="4"/>
-<wire x1="302.26" y1="76.2" x2="299.72" y2="76.2" width="0.1524" layer="91"/>
-<label x="281.94" y="76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="BT2_7_AIN2_+" class="0">
-<segment>
-<pinref part="J43" gate="G$1" pin="3"/>
-<wire x1="302.26" y1="53.34" x2="299.72" y2="53.34" width="0.1524" layer="91"/>
-<label x="281.94" y="53.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="BT2_7_AIN2_-" class="0">
-<segment>
-<pinref part="J43" gate="G$1" pin="4"/>
-<wire x1="302.26" y1="50.8" x2="299.72" y2="50.8" width="0.1524" layer="91"/>
-<label x="281.94" y="50.8" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="BT2_6_AIN2_+" class="0">
-<segment>
-<pinref part="J45" gate="G$1" pin="3"/>
-<wire x1="302.26" y1="27.94" x2="299.72" y2="27.94" width="0.1524" layer="91"/>
-<label x="281.94" y="27.94" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="BT2_6_AIN2_-" class="0">
-<segment>
-<pinref part="J45" gate="G$1" pin="4"/>
-<wire x1="302.26" y1="25.4" x2="299.72" y2="25.4" width="0.1524" layer="91"/>
-<label x="281.94" y="25.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="BT2_7_AIN1_+" class="0">
 <segment>
 <pinref part="J44" gate="G$1" pin="3"/>
 <wire x1="345.44" y1="53.34" x2="342.9" y2="53.34" width="0.1524" layer="91"/>
 <label x="325.12" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="BT2_7_AIN1_-" class="0">
+<net name="BT2_6_AIN2_-" class="0">
 <segment>
 <pinref part="J44" gate="G$1" pin="4"/>
 <wire x1="345.44" y1="50.8" x2="342.9" y2="50.8" width="0.1524" layer="91"/>
@@ -28851,44 +28797,44 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </net>
 <net name="BT2_6_AIN1_+" class="0">
 <segment>
-<pinref part="J46" gate="G$1" pin="3"/>
-<wire x1="345.44" y1="27.94" x2="342.9" y2="27.94" width="0.1524" layer="91"/>
-<label x="325.12" y="27.94" size="1.778" layer="95"/>
+<pinref part="J43" gate="G$1" pin="3"/>
+<wire x1="302.26" y1="53.34" x2="299.72" y2="53.34" width="0.1524" layer="91"/>
+<label x="281.94" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BT2_6_AIN1_-" class="0">
 <segment>
-<pinref part="J46" gate="G$1" pin="4"/>
-<wire x1="345.44" y1="25.4" x2="342.9" y2="25.4" width="0.1524" layer="91"/>
-<label x="325.12" y="25.4" size="1.778" layer="95"/>
+<pinref part="J43" gate="G$1" pin="4"/>
+<wire x1="302.26" y1="50.8" x2="299.72" y2="50.8" width="0.1524" layer="91"/>
+<label x="281.94" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BT2_5_AIN2_+" class="0">
 <segment>
-<pinref part="J47" gate="G$1" pin="3"/>
-<wire x1="302.26" y1="2.54" x2="299.72" y2="2.54" width="0.1524" layer="91"/>
-<label x="279.4" y="2.54" size="1.778" layer="95"/>
+<pinref part="J42" gate="G$1" pin="3"/>
+<wire x1="345.44" y1="78.74" x2="342.9" y2="78.74" width="0.1524" layer="91"/>
+<label x="325.12" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BT2_5_AIN2_-" class="0">
 <segment>
-<pinref part="J47" gate="G$1" pin="4"/>
-<wire x1="302.26" y1="0" x2="299.72" y2="0" width="0.1524" layer="91"/>
-<label x="279.4" y="0" size="1.778" layer="95"/>
+<pinref part="J42" gate="G$1" pin="4"/>
+<wire x1="345.44" y1="76.2" x2="342.9" y2="76.2" width="0.1524" layer="91"/>
+<label x="325.12" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BT2_5_AIN1_+" class="0">
 <segment>
-<pinref part="J48" gate="G$1" pin="3"/>
-<wire x1="345.44" y1="2.54" x2="342.9" y2="2.54" width="0.1524" layer="91"/>
-<label x="325.12" y="2.54" size="1.778" layer="95"/>
+<pinref part="J41" gate="G$1" pin="3"/>
+<wire x1="302.26" y1="78.74" x2="299.72" y2="78.74" width="0.1524" layer="91"/>
+<label x="281.94" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BT2_5_AIN1_-" class="0">
 <segment>
-<pinref part="J48" gate="G$1" pin="4"/>
-<wire x1="345.44" y1="0" x2="342.9" y2="0" width="0.1524" layer="91"/>
-<label x="325.12" y="0" size="1.778" layer="95"/>
+<pinref part="J41" gate="G$1" pin="4"/>
+<wire x1="302.26" y1="76.2" x2="299.72" y2="76.2" width="0.1524" layer="91"/>
+<label x="281.94" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BT_5_AIN2_+" class="0">
@@ -29084,6 +29030,62 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <pinref part="J64" gate="G$1" pin="4"/>
 <wire x1="431.8" y1="0" x2="429.26" y2="0" width="0.1524" layer="91"/>
 <label x="414.02" y="0" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BT2_7_AIN1_+" class="0">
+<segment>
+<pinref part="J45" gate="G$1" pin="3"/>
+<wire x1="302.26" y1="27.94" x2="299.72" y2="27.94" width="0.1524" layer="91"/>
+<label x="281.94" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BT2_7_AIN1_-" class="0">
+<segment>
+<pinref part="J45" gate="G$1" pin="4"/>
+<wire x1="302.26" y1="25.4" x2="299.72" y2="25.4" width="0.1524" layer="91"/>
+<label x="281.94" y="25.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BT2_7_AIN2_-" class="0">
+<segment>
+<pinref part="J46" gate="G$1" pin="4"/>
+<wire x1="345.44" y1="25.4" x2="342.9" y2="25.4" width="0.1524" layer="91"/>
+<label x="325.12" y="25.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BT2_7_AIN2_+" class="0">
+<segment>
+<pinref part="J46" gate="G$1" pin="3"/>
+<wire x1="345.44" y1="27.94" x2="342.9" y2="27.94" width="0.1524" layer="91"/>
+<label x="325.12" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BT2_8_AIN1_+" class="0">
+<segment>
+<pinref part="J47" gate="G$1" pin="3"/>
+<wire x1="302.26" y1="2.54" x2="299.72" y2="2.54" width="0.1524" layer="91"/>
+<label x="279.4" y="2.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BT2_8_AIN1_-" class="0">
+<segment>
+<pinref part="J47" gate="G$1" pin="4"/>
+<wire x1="302.26" y1="0" x2="299.72" y2="0" width="0.1524" layer="91"/>
+<label x="279.4" y="0" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BT2_8_AIN2_+" class="0">
+<segment>
+<pinref part="J48" gate="G$1" pin="3"/>
+<wire x1="345.44" y1="2.54" x2="342.9" y2="2.54" width="0.1524" layer="91"/>
+<label x="325.12" y="2.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BT2_8_AIN2_-" class="0">
+<segment>
+<pinref part="J48" gate="G$1" pin="4"/>
+<wire x1="345.44" y1="0" x2="342.9" y2="0" width="0.1524" layer="91"/>
+<label x="325.12" y="0" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

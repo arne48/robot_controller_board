@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.1">
+<eagle version="9.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -25100,54 +25100,6 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <label x="25.4" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LC_1_SS1" class="0">
-<segment>
-<pinref part="U18" gate="A" pin="*CS"/>
-<wire x1="208.28" y1="266.7" x2="215.9" y2="266.7" width="0.1524" layer="91"/>
-<label x="215.9" y="266.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U22" gate="A" pin="PC9"/>
-<wire x1="190.5" y1="99.06" x2="195.58" y2="99.06" width="0.1524" layer="91"/>
-<label x="195.58" y="99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LC_1_SS2" class="0">
-<segment>
-<pinref part="U21" gate="A" pin="*CS"/>
-<wire x1="335.28" y1="266.7" x2="342.9" y2="266.7" width="0.1524" layer="91"/>
-<label x="342.9" y="266.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U22" gate="A" pin="PC8"/>
-<wire x1="190.5" y1="101.6" x2="195.58" y2="101.6" width="0.1524" layer="91"/>
-<label x="195.58" y="101.6" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LC_1_SS3" class="0">
-<segment>
-<pinref part="U23" gate="A" pin="*CS"/>
-<wire x1="472.44" y1="266.7" x2="480.06" y2="266.7" width="0.1524" layer="91"/>
-<label x="480.06" y="266.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U22" gate="A" pin="PC7"/>
-<wire x1="190.5" y1="104.14" x2="195.58" y2="104.14" width="0.1524" layer="91"/>
-<label x="195.58" y="104.14" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LC_1_SS4" class="0">
-<segment>
-<pinref part="U24" gate="A" pin="*CS"/>
-<wire x1="609.6" y1="269.24" x2="617.22" y2="269.24" width="0.1524" layer="91"/>
-<label x="617.22" y="269.24" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U22" gate="A" pin="PC6"/>
-<wire x1="190.5" y1="106.68" x2="195.58" y2="106.68" width="0.1524" layer="91"/>
-<label x="195.58" y="106.68" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="LC_1_SPI1_SCK" class="0">
 <segment>
 <pinref part="U22" gate="A" pin="PA5"/>
@@ -25556,54 +25508,6 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <label x="104.14" y="203.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LC_1_SS5" class="0">
-<segment>
-<pinref part="U25" gate="A" pin="*CS"/>
-<wire x1="609.6" y1="187.96" x2="617.22" y2="187.96" width="0.1524" layer="91"/>
-<label x="617.22" y="187.96" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U22" gate="A" pin="PC3"/>
-<wire x1="190.5" y1="114.3" x2="195.58" y2="114.3" width="0.1524" layer="91"/>
-<label x="195.58" y="114.3" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LC_1_SS6" class="0">
-<segment>
-<pinref part="U26" gate="A" pin="*CS"/>
-<wire x1="472.44" y1="187.96" x2="480.06" y2="187.96" width="0.1524" layer="91"/>
-<label x="480.06" y="187.96" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U22" gate="A" pin="PC2"/>
-<wire x1="190.5" y1="116.84" x2="195.58" y2="116.84" width="0.1524" layer="91"/>
-<label x="195.58" y="116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LC_1_SS7" class="0">
-<segment>
-<pinref part="U27" gate="A" pin="*CS"/>
-<wire x1="335.28" y1="190.5" x2="342.9" y2="190.5" width="0.1524" layer="91"/>
-<label x="342.9" y="190.5" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U22" gate="A" pin="PC1"/>
-<wire x1="190.5" y1="119.38" x2="195.58" y2="119.38" width="0.1524" layer="91"/>
-<label x="195.58" y="119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LC_1_SS8" class="0">
-<segment>
-<pinref part="U28" gate="A" pin="*CS"/>
-<wire x1="208.28" y1="190.5" x2="215.9" y2="190.5" width="0.1524" layer="91"/>
-<label x="215.9" y="190.5" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U22" gate="A" pin="PC0"/>
-<wire x1="190.5" y1="121.92" x2="195.58" y2="121.92" width="0.1524" layer="91"/>
-<label x="195.58" y="121.92" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="BT_5_AIN1_-" class="0">
 <segment>
 <pinref part="U25" gate="A" pin="AIN1(-)"/>
@@ -25812,98 +25716,86 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </net>
 <net name="LC_1_RDY1" class="0">
 <segment>
-<pinref part="U18" gate="A" pin="*RDY"/>
-<wire x1="208.28" y1="269.24" x2="215.9" y2="269.24" width="0.1524" layer="91"/>
-<label x="215.9" y="269.24" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U22" gate="A" pin="PA11"/>
-<wire x1="129.54" y1="86.36" x2="121.92" y2="86.36" width="0.1524" layer="91"/>
-<label x="114.3" y="86.36" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LC_1_RDY8" class="0">
-<segment>
-<pinref part="U28" gate="A" pin="*RDY"/>
-<wire x1="208.28" y1="193.04" x2="215.9" y2="193.04" width="0.1524" layer="91"/>
-<label x="215.9" y="193.04" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U22" gate="A" pin="PA0-WKUP"/>
-<wire x1="129.54" y1="114.3" x2="121.92" y2="114.3" width="0.1524" layer="91"/>
-<label x="114.3" y="114.3" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LC_1_RDY2" class="0">
-<segment>
 <pinref part="U21" gate="A" pin="*RDY"/>
 <wire x1="335.28" y1="269.24" x2="342.9" y2="269.24" width="0.1524" layer="91"/>
 <label x="342.9" y="269.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U22" gate="A" pin="PA10"/>
-<wire x1="129.54" y1="88.9" x2="121.92" y2="88.9" width="0.1524" layer="91"/>
-<label x="114.3" y="88.9" size="1.778" layer="95"/>
+<pinref part="U22" gate="A" pin="PA11"/>
+<wire x1="129.54" y1="86.36" x2="121.92" y2="86.36" width="0.1524" layer="91"/>
+<label x="111.76" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LC_1_RDY7" class="0">
-<segment>
-<pinref part="U27" gate="A" pin="*RDY"/>
-<wire x1="335.28" y1="193.04" x2="342.9" y2="193.04" width="0.1524" layer="91"/>
-<label x="342.9" y="193.04" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U22" gate="A" pin="PA1"/>
-<wire x1="129.54" y1="111.76" x2="121.92" y2="111.76" width="0.1524" layer="91"/>
-<label x="114.3" y="111.76" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LC_1_RDY3" class="0">
+<net name="LC_1_RDY2" class="0">
 <segment>
 <pinref part="U23" gate="A" pin="*RDY"/>
 <wire x1="472.44" y1="269.24" x2="480.06" y2="269.24" width="0.1524" layer="91"/>
 <label x="480.06" y="269.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U22" gate="A" pin="PA9"/>
-<wire x1="129.54" y1="91.44" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
-<label x="114.3" y="91.44" size="1.778" layer="95"/>
+<pinref part="U22" gate="A" pin="PA10"/>
+<wire x1="129.54" y1="88.9" x2="121.92" y2="88.9" width="0.1524" layer="91"/>
+<label x="111.76" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LC_1_RDY6" class="0">
+<net name="LC_1_RDY7" class="0">
 <segment>
-<pinref part="U26" gate="A" pin="*RDY"/>
-<wire x1="472.44" y1="190.5" x2="480.06" y2="190.5" width="0.1524" layer="91"/>
-<label x="480.06" y="190.5" size="1.778" layer="95"/>
+<pinref part="U28" gate="A" pin="*RDY"/>
+<wire x1="208.28" y1="193.04" x2="215.9" y2="193.04" width="0.1524" layer="91"/>
+<label x="215.9" y="193.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U22" gate="A" pin="PA2"/>
-<wire x1="129.54" y1="109.22" x2="121.92" y2="109.22" width="0.1524" layer="91"/>
-<label x="114.3" y="109.22" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LC_1_RDY5" class="0">
-<segment>
-<pinref part="U25" gate="A" pin="*RDY"/>
-<wire x1="609.6" y1="190.5" x2="617.22" y2="190.5" width="0.1524" layer="91"/>
-<label x="617.22" y="190.5" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U22" gate="A" pin="PA3"/>
-<wire x1="129.54" y1="106.68" x2="121.92" y2="106.68" width="0.1524" layer="91"/>
-<label x="114.3" y="106.68" size="1.778" layer="95"/>
+<pinref part="U22" gate="A" pin="PC7"/>
+<wire x1="190.5" y1="104.14" x2="200.66" y2="104.14" width="0.1524" layer="91"/>
+<label x="190.5" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LC_1_RDY4" class="0">
+<net name="LC_1_RDY3" class="0">
 <segment>
 <pinref part="U24" gate="A" pin="*RDY"/>
 <wire x1="609.6" y1="271.78" x2="617.22" y2="271.78" width="0.1524" layer="91"/>
 <label x="617.22" y="271.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U22" gate="A" pin="PA12"/>
-<wire x1="129.54" y1="83.82" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
-<label x="114.3" y="83.82" size="1.778" layer="95"/>
+<pinref part="U22" gate="A" pin="PA9"/>
+<wire x1="129.54" y1="91.44" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
+<label x="111.76" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LC_1_RDY6" class="0">
+<segment>
+<pinref part="U27" gate="A" pin="*RDY"/>
+<wire x1="335.28" y1="193.04" x2="342.9" y2="193.04" width="0.1524" layer="91"/>
+<label x="342.9" y="193.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U22" gate="A" pin="PC8"/>
+<wire x1="190.5" y1="101.6" x2="200.66" y2="101.6" width="0.1524" layer="91"/>
+<label x="190.5" y="101.6" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LC_1_RDY5" class="0">
+<segment>
+<pinref part="U26" gate="A" pin="*RDY"/>
+<wire x1="472.44" y1="190.5" x2="480.06" y2="190.5" width="0.1524" layer="91"/>
+<label x="480.06" y="190.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U22" gate="A" pin="PC9"/>
+<wire x1="190.5" y1="99.06" x2="200.66" y2="99.06" width="0.1524" layer="91"/>
+<label x="190.5" y="99.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LC_1_RDY4" class="0">
+<segment>
+<pinref part="U25" gate="A" pin="*RDY"/>
+<wire x1="609.6" y1="190.5" x2="617.22" y2="190.5" width="0.1524" layer="91"/>
+<label x="617.22" y="190.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U22" gate="A" pin="PA8"/>
+<wire x1="129.54" y1="93.98" x2="121.92" y2="93.98" width="0.1524" layer="91"/>
+<label x="111.76" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LC_2_SWDIO" class="0">
@@ -25940,54 +25832,6 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <pinref part="SV21" gate="1" pin="4"/>
 <wire x1="680.72" y1="142.24" x2="675.64" y2="142.24" width="0.1524" layer="91"/>
 <label x="670.56" y="142.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LC_2_SS1" class="0">
-<segment>
-<pinref part="U38" gate="A" pin="*CS"/>
-<wire x1="853.44" y1="276.86" x2="861.06" y2="276.86" width="0.1524" layer="91"/>
-<label x="861.06" y="276.86" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U40" gate="A" pin="PC9"/>
-<wire x1="835.66" y1="109.22" x2="840.74" y2="109.22" width="0.1524" layer="91"/>
-<label x="840.74" y="109.22" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LC_2_SS2" class="0">
-<segment>
-<pinref part="U39" gate="A" pin="*CS"/>
-<wire x1="980.44" y1="276.86" x2="988.06" y2="276.86" width="0.1524" layer="91"/>
-<label x="988.06" y="276.86" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U40" gate="A" pin="PC8"/>
-<wire x1="835.66" y1="111.76" x2="840.74" y2="111.76" width="0.1524" layer="91"/>
-<label x="840.74" y="111.76" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LC_2_SS3" class="0">
-<segment>
-<pinref part="U41" gate="A" pin="*CS"/>
-<wire x1="1117.6" y1="276.86" x2="1125.22" y2="276.86" width="0.1524" layer="91"/>
-<label x="1125.22" y="276.86" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U40" gate="A" pin="PC7"/>
-<wire x1="835.66" y1="114.3" x2="840.74" y2="114.3" width="0.1524" layer="91"/>
-<label x="840.74" y="114.3" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LC_2_SS4" class="0">
-<segment>
-<pinref part="U42" gate="A" pin="*CS"/>
-<wire x1="1254.76" y1="279.4" x2="1262.38" y2="279.4" width="0.1524" layer="91"/>
-<label x="1262.38" y="279.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U40" gate="A" pin="PC6"/>
-<wire x1="835.66" y1="116.84" x2="840.74" y2="116.84" width="0.1524" layer="91"/>
-<label x="840.74" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LC_2_SPI1_SCK" class="0">
@@ -26398,54 +26242,6 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <label x="749.3" y="213.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LC_2_SS5" class="0">
-<segment>
-<pinref part="U43" gate="A" pin="*CS"/>
-<wire x1="1254.76" y1="198.12" x2="1262.38" y2="198.12" width="0.1524" layer="91"/>
-<label x="1262.38" y="198.12" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U40" gate="A" pin="PC3"/>
-<wire x1="835.66" y1="124.46" x2="840.74" y2="124.46" width="0.1524" layer="91"/>
-<label x="840.74" y="124.46" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LC_2_SS6" class="0">
-<segment>
-<pinref part="U44" gate="A" pin="*CS"/>
-<wire x1="1117.6" y1="198.12" x2="1125.22" y2="198.12" width="0.1524" layer="91"/>
-<label x="1125.22" y="198.12" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U40" gate="A" pin="PC2"/>
-<wire x1="835.66" y1="127" x2="840.74" y2="127" width="0.1524" layer="91"/>
-<label x="840.74" y="127" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LC_2_SS7" class="0">
-<segment>
-<pinref part="U45" gate="A" pin="*CS"/>
-<wire x1="980.44" y1="200.66" x2="988.06" y2="200.66" width="0.1524" layer="91"/>
-<label x="988.06" y="200.66" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U40" gate="A" pin="PC1"/>
-<wire x1="835.66" y1="129.54" x2="840.74" y2="129.54" width="0.1524" layer="91"/>
-<label x="840.74" y="129.54" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LC_2_SS8" class="0">
-<segment>
-<pinref part="U46" gate="A" pin="*CS"/>
-<wire x1="853.44" y1="200.66" x2="861.06" y2="200.66" width="0.1524" layer="91"/>
-<label x="861.06" y="200.66" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U40" gate="A" pin="PC0"/>
-<wire x1="835.66" y1="132.08" x2="840.74" y2="132.08" width="0.1524" layer="91"/>
-<label x="840.74" y="132.08" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="BT2_5_AIN1_-" class="0">
 <segment>
 <pinref part="U43" gate="A" pin="AIN1(-)"/>
@@ -26622,7 +26418,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <label x="668.02" y="281.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LC2_OSC_IN" class="0">
+<net name="LC_2_OSC_IN" class="0">
 <segment>
 <pinref part="Y8" gate="G$1" pin="OSC1"/>
 <wire x1="873.76" y1="149.86" x2="866.14" y2="149.86" width="0.1524" layer="91"/>
@@ -26636,7 +26432,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <label x="835.66" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LC2_OSC_OUT" class="0">
+<net name="LC_2_OSC_OUT" class="0">
 <segment>
 <pinref part="Y8" gate="G$1" pin="OSC2"/>
 <wire x1="904.24" y1="137.16" x2="909.32" y2="137.16" width="0.1524" layer="91"/>
@@ -26654,98 +26450,86 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </net>
 <net name="LC_2_RDY1" class="0">
 <segment>
-<pinref part="U38" gate="A" pin="*RDY"/>
-<wire x1="853.44" y1="279.4" x2="861.06" y2="279.4" width="0.1524" layer="91"/>
-<label x="861.06" y="279.4" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U40" gate="A" pin="PA11"/>
 <wire x1="774.7" y1="96.52" x2="767.08" y2="96.52" width="0.1524" layer="91"/>
-<label x="759.46" y="96.52" size="1.778" layer="95"/>
+<label x="754.38" y="96.52" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="LC_2_RDY8" class="0">
-<segment>
-<pinref part="U46" gate="A" pin="*RDY"/>
-<wire x1="853.44" y1="203.2" x2="861.06" y2="203.2" width="0.1524" layer="91"/>
-<label x="861.06" y="203.2" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U40" gate="A" pin="PA0-WKUP"/>
-<wire x1="774.7" y1="124.46" x2="767.08" y2="124.46" width="0.1524" layer="91"/>
-<label x="759.46" y="124.46" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LC_2_RDY2" class="0">
 <segment>
 <pinref part="U39" gate="A" pin="*RDY"/>
 <wire x1="980.44" y1="279.4" x2="988.06" y2="279.4" width="0.1524" layer="91"/>
 <label x="988.06" y="279.4" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="LC_2_RDY2" class="0">
 <segment>
 <pinref part="U40" gate="A" pin="PA10"/>
 <wire x1="774.7" y1="99.06" x2="767.08" y2="99.06" width="0.1524" layer="91"/>
-<label x="759.46" y="99.06" size="1.778" layer="95"/>
+<label x="754.38" y="99.06" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="LC_2_RDY7" class="0">
-<segment>
-<pinref part="U45" gate="A" pin="*RDY"/>
-<wire x1="980.44" y1="203.2" x2="988.06" y2="203.2" width="0.1524" layer="91"/>
-<label x="988.06" y="203.2" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U40" gate="A" pin="PA1"/>
-<wire x1="774.7" y1="121.92" x2="767.08" y2="121.92" width="0.1524" layer="91"/>
-<label x="759.46" y="121.92" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LC_2_RDY3" class="0">
 <segment>
 <pinref part="U41" gate="A" pin="*RDY"/>
 <wire x1="1117.6" y1="279.4" x2="1125.22" y2="279.4" width="0.1524" layer="91"/>
 <label x="1125.22" y="279.4" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="LC_2_RDY7" class="0">
+<segment>
+<pinref part="U40" gate="A" pin="PC7"/>
+<wire x1="835.66" y1="114.3" x2="845.82" y2="114.3" width="0.1524" layer="91"/>
+<label x="835.66" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U46" gate="A" pin="*RDY"/>
+<wire x1="853.44" y1="203.2" x2="861.06" y2="203.2" width="0.1524" layer="91"/>
+<label x="861.06" y="203.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LC_2_RDY3" class="0">
 <segment>
 <pinref part="U40" gate="A" pin="PA9"/>
 <wire x1="774.7" y1="101.6" x2="767.08" y2="101.6" width="0.1524" layer="91"/>
-<label x="759.46" y="101.6" size="1.778" layer="95"/>
+<label x="754.38" y="101.6" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="LC_2_RDY6" class="0">
-<segment>
-<pinref part="U44" gate="A" pin="*RDY"/>
-<wire x1="1117.6" y1="200.66" x2="1125.22" y2="200.66" width="0.1524" layer="91"/>
-<label x="1125.22" y="200.66" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U40" gate="A" pin="PA2"/>
-<wire x1="774.7" y1="119.38" x2="767.08" y2="119.38" width="0.1524" layer="91"/>
-<label x="759.46" y="119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LC_2_RDY5" class="0">
-<segment>
-<pinref part="U43" gate="A" pin="*RDY"/>
-<wire x1="1254.76" y1="200.66" x2="1262.38" y2="200.66" width="0.1524" layer="91"/>
-<label x="1262.38" y="200.66" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U40" gate="A" pin="PA3"/>
-<wire x1="774.7" y1="116.84" x2="767.08" y2="116.84" width="0.1524" layer="91"/>
-<label x="759.46" y="116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LC_2_RDY4" class="0">
 <segment>
 <pinref part="U42" gate="A" pin="*RDY"/>
 <wire x1="1254.76" y1="281.94" x2="1262.38" y2="281.94" width="0.1524" layer="91"/>
 <label x="1262.38" y="281.94" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="LC_2_RDY6" class="0">
 <segment>
-<pinref part="U40" gate="A" pin="PA12"/>
-<wire x1="774.7" y1="93.98" x2="767.08" y2="93.98" width="0.1524" layer="91"/>
-<label x="759.46" y="93.98" size="1.778" layer="95"/>
+<pinref part="U40" gate="A" pin="PC8"/>
+<wire x1="835.66" y1="111.76" x2="845.82" y2="111.76" width="0.1524" layer="91"/>
+<label x="835.66" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U45" gate="A" pin="*RDY"/>
+<wire x1="980.44" y1="203.2" x2="988.06" y2="203.2" width="0.1524" layer="91"/>
+<label x="988.06" y="203.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LC_2_RDY5" class="0">
+<segment>
+<pinref part="U40" gate="A" pin="PC9"/>
+<wire x1="835.66" y1="109.22" x2="845.82" y2="109.22" width="0.1524" layer="91"/>
+<label x="835.66" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U44" gate="A" pin="*RDY"/>
+<wire x1="1117.6" y1="200.66" x2="1125.22" y2="200.66" width="0.1524" layer="91"/>
+<label x="1125.22" y="200.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LC_2_RDY4" class="0">
+<segment>
+<pinref part="U40" gate="A" pin="PA8"/>
+<wire x1="774.7" y1="104.14" x2="767.08" y2="104.14" width="0.1524" layer="91"/>
+<label x="754.38" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U43" gate="A" pin="*RDY"/>
+<wire x1="1254.76" y1="200.66" x2="1262.38" y2="200.66" width="0.1524" layer="91"/>
+<label x="1262.38" y="200.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LC_1_MCLK" class="0">
@@ -26770,6 +26554,236 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <pinref part="U38" gate="A" pin="MCLK_IN"/>
 <wire x1="767.08" y1="289.56" x2="772.16" y2="289.56" width="0.1524" layer="91"/>
 <label x="759.46" y="289.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LC_1_RDY0" class="0">
+<segment>
+<pinref part="U18" gate="A" pin="*RDY"/>
+<wire x1="208.28" y1="269.24" x2="215.9" y2="269.24" width="0.1524" layer="91"/>
+<label x="215.9" y="269.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U22" gate="A" pin="PA12"/>
+<wire x1="129.54" y1="83.82" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
+<label x="111.76" y="83.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LC_1_CS0" class="0">
+<segment>
+<pinref part="U18" gate="A" pin="*CS"/>
+<wire x1="208.28" y1="266.7" x2="215.9" y2="266.7" width="0.1524" layer="91"/>
+<label x="215.9" y="266.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U22" gate="A" pin="PA0-WKUP"/>
+<wire x1="129.54" y1="114.3" x2="121.92" y2="114.3" width="0.1524" layer="91"/>
+<label x="109.22" y="114.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LC_1_CS1" class="0">
+<segment>
+<pinref part="U21" gate="A" pin="*CS"/>
+<wire x1="335.28" y1="266.7" x2="342.9" y2="266.7" width="0.1524" layer="91"/>
+<label x="342.9" y="266.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U22" gate="A" pin="PA1"/>
+<wire x1="129.54" y1="111.76" x2="121.92" y2="111.76" width="0.1524" layer="91"/>
+<label x="109.22" y="111.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LC_1_CS2" class="0">
+<segment>
+<pinref part="U23" gate="A" pin="*CS"/>
+<wire x1="472.44" y1="266.7" x2="480.06" y2="266.7" width="0.1524" layer="91"/>
+<label x="480.06" y="266.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U22" gate="A" pin="PA2"/>
+<wire x1="129.54" y1="109.22" x2="121.92" y2="109.22" width="0.1524" layer="91"/>
+<label x="109.22" y="109.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LC_1_CS3" class="0">
+<segment>
+<pinref part="U24" gate="A" pin="*CS"/>
+<wire x1="609.6" y1="269.24" x2="617.22" y2="269.24" width="0.1524" layer="91"/>
+<label x="617.22" y="269.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U22" gate="A" pin="PC4"/>
+<wire x1="190.5" y1="111.76" x2="200.66" y2="111.76" width="0.1524" layer="91"/>
+<label x="190.5" y="111.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LC_1_CS4" class="0">
+<segment>
+<pinref part="U25" gate="A" pin="*CS"/>
+<wire x1="609.6" y1="187.96" x2="617.22" y2="187.96" width="0.1524" layer="91"/>
+<label x="617.22" y="187.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U22" gate="A" pin="PC5"/>
+<wire x1="190.5" y1="109.22" x2="200.66" y2="109.22" width="0.1524" layer="91"/>
+<label x="190.5" y="109.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LC_1_CS5" class="0">
+<segment>
+<pinref part="U26" gate="A" pin="*CS"/>
+<wire x1="472.44" y1="187.96" x2="480.06" y2="187.96" width="0.1524" layer="91"/>
+<label x="480.06" y="187.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U22" gate="A" pin="PB0"/>
+<wire x1="129.54" y1="71.12" x2="121.92" y2="71.12" width="0.1524" layer="91"/>
+<label x="114.3" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LC_1_CS6" class="0">
+<segment>
+<pinref part="U27" gate="A" pin="*CS"/>
+<wire x1="335.28" y1="190.5" x2="342.9" y2="190.5" width="0.1524" layer="91"/>
+<label x="342.9" y="190.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U22" gate="A" pin="PB1"/>
+<wire x1="129.54" y1="66.04" x2="121.92" y2="66.04" width="0.1524" layer="91"/>
+<label x="114.3" y="66.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LC_1_CS7" class="0">
+<segment>
+<pinref part="U28" gate="A" pin="*CS"/>
+<wire x1="208.28" y1="190.5" x2="215.9" y2="190.5" width="0.1524" layer="91"/>
+<label x="215.9" y="190.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U22" gate="A" pin="PB1_2"/>
+<wire x1="129.54" y1="68.58" x2="121.92" y2="68.58" width="0.1524" layer="91"/>
+<label x="114.3" y="68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LC_2_CS0" class="0">
+<segment>
+<pinref part="U40" gate="A" pin="PA0-WKUP"/>
+<wire x1="774.7" y1="124.46" x2="767.08" y2="124.46" width="0.1524" layer="91"/>
+<label x="754.38" y="124.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U38" gate="A" pin="*CS"/>
+<wire x1="853.44" y1="276.86" x2="861.06" y2="276.86" width="0.1524" layer="91"/>
+<label x="861.06" y="276.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LC_2_CS1" class="0">
+<segment>
+<pinref part="U40" gate="A" pin="PA1"/>
+<wire x1="774.7" y1="121.92" x2="767.08" y2="121.92" width="0.1524" layer="91"/>
+<label x="754.38" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U39" gate="A" pin="*CS"/>
+<wire x1="980.44" y1="276.86" x2="988.06" y2="276.86" width="0.1524" layer="91"/>
+<label x="988.06" y="276.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LC_2_CS2" class="0">
+<segment>
+<pinref part="U40" gate="A" pin="PA2"/>
+<wire x1="774.7" y1="119.38" x2="767.08" y2="119.38" width="0.1524" layer="91"/>
+<label x="754.38" y="119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U41" gate="A" pin="*CS"/>
+<wire x1="1117.6" y1="276.86" x2="1125.22" y2="276.86" width="0.1524" layer="91"/>
+<label x="1125.22" y="276.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LC_2_CS3" class="0">
+<segment>
+<pinref part="U40" gate="A" pin="PC4"/>
+<wire x1="835.66" y1="121.92" x2="845.82" y2="121.92" width="0.1524" layer="91"/>
+<label x="835.66" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U42" gate="A" pin="*CS"/>
+<wire x1="1254.76" y1="279.4" x2="1262.38" y2="279.4" width="0.1524" layer="91"/>
+<label x="1262.38" y="279.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LC_2_CS4" class="0">
+<segment>
+<pinref part="U40" gate="A" pin="PC5"/>
+<wire x1="835.66" y1="119.38" x2="845.82" y2="119.38" width="0.1524" layer="91"/>
+<label x="835.66" y="119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U43" gate="A" pin="*CS"/>
+<wire x1="1254.76" y1="198.12" x2="1262.38" y2="198.12" width="0.1524" layer="91"/>
+<label x="1262.38" y="198.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LC_2_CS5" class="0">
+<segment>
+<pinref part="U40" gate="A" pin="PB0"/>
+<wire x1="774.7" y1="81.28" x2="767.08" y2="81.28" width="0.1524" layer="91"/>
+<label x="756.92" y="81.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U44" gate="A" pin="*CS"/>
+<wire x1="1117.6" y1="198.12" x2="1125.22" y2="198.12" width="0.1524" layer="91"/>
+<label x="1125.22" y="198.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LC_2_CS7" class="0">
+<segment>
+<pinref part="U40" gate="A" pin="PB1_2"/>
+<wire x1="774.7" y1="78.74" x2="767.08" y2="78.74" width="0.1524" layer="91"/>
+<label x="756.92" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U46" gate="A" pin="*CS"/>
+<wire x1="853.44" y1="200.66" x2="861.06" y2="200.66" width="0.1524" layer="91"/>
+<label x="861.06" y="200.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LC_2_CS6" class="0">
+<segment>
+<pinref part="U40" gate="A" pin="PB1"/>
+<wire x1="774.7" y1="76.2" x2="767.08" y2="76.2" width="0.1524" layer="91"/>
+<label x="756.92" y="76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U45" gate="A" pin="*CS"/>
+<wire x1="980.44" y1="200.66" x2="988.06" y2="200.66" width="0.1524" layer="91"/>
+<label x="988.06" y="200.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LC_2_RDY0" class="0">
+<segment>
+<pinref part="U40" gate="A" pin="PA12"/>
+<wire x1="774.7" y1="93.98" x2="767.08" y2="93.98" width="0.1524" layer="91"/>
+<label x="754.38" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U38" gate="A" pin="*RDY"/>
+<wire x1="853.44" y1="279.4" x2="861.06" y2="279.4" width="0.1524" layer="91"/>
+<label x="861.06" y="279.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LC_2_PB7" class="0">
+<segment>
+<pinref part="U40" gate="A" pin="PB7"/>
+<wire x1="774.7" y1="63.5" x2="767.08" y2="63.5" width="0.1524" layer="91"/>
+<label x="756.92" y="63.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LC_1_PB7" class="0">
+<segment>
+<pinref part="U22" gate="A" pin="PB7"/>
+<wire x1="129.54" y1="53.34" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
+<label x="111.76" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

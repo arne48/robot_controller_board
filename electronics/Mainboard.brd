@@ -92,12 +92,12 @@
 <hole x="167.7" y="145.6" drill="5"/>
 <hole x="-5.2" y="87.1" drill="5"/>
 <hole x="167.7" y="45.5" drill="5"/>
-<text x="286.65" y="107.9" size="1.27" layer="25" rot="R90">PWR_GOOD</text>
-<text x="292.5" y="107.9" size="1.27" layer="25" rot="R90">+12V</text>
-<text x="280.8" y="107.9" size="1.27" layer="25" rot="R90">+3.3V</text>
-<text x="274.95" y="107.9" size="1.27" layer="25" rot="R90">+5V</text>
-<text x="292.5" y="129.35" size="1.27" layer="25" rot="R180">ON</text>
-<text x="274.95" y="129.35" size="1.27" layer="25" rot="R180">OFF</text>
+<text x="286.65" y="102.7" size="1.778" layer="25" rot="R90">PWR_GOOD</text>
+<text x="292.5" y="102.7" size="1.778" layer="25" rot="R90">+12V</text>
+<text x="280.8" y="102.7" size="1.778" layer="25" rot="R90">+3.3V</text>
+<text x="274.95" y="102.7" size="1.778" layer="25" rot="R90">+5V</text>
+<text x="293.8" y="129.35" size="1.778" layer="25" rot="R180">ON</text>
+<text x="274.95" y="129.35" size="1.778" layer="25" rot="R180">OFF</text>
 <wire x1="35.1" y1="145.2" x2="34.2" y2="145.2" width="0.1524" layer="47"/>
 <wire x1="34.2" y1="145.2" x2="2.6" y2="145.2" width="0.1524" layer="47"/>
 <wire x1="2.6" y1="145.2" x2="2.6" y2="141.7" width="0.1524" layer="47"/>
@@ -5623,11 +5623,13 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <attribute name="NAME" x="111.165" y="39.635" size="1.27" layer="25"/>
 <attribute name="VALUE" x="115.715" y="38.395" size="1.27" layer="27"/>
 </element>
-<element name="S6" library="switch-omron" package="B3F-10XX" value="" x="156" y="49.4" rot="R270">
+<element name="S6" library="switch-omron" package="B3F-10XX" value="" x="156" y="49.4" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="156" y="49.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="B3F-1000" x="156" y="49.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="159.683" y="52.448" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="OC_FARNELL" value="176432" x="156" y="49.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="36M3542" x="156" y="49.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="150.92" y="52.448" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="U19" library="AD5360BSTZ" package="ST_52" value="AD5360BSTZ" x="140.4" y="105.95" smashed="yes" rot="R315">
 <attribute name="NAME" x="147.57345625" y="106.151665625" size="1.27" layer="25" ratio="6" rot="SR315"/>
@@ -5683,11 +5685,13 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <attribute name="NAME" x="114.4" y="118.3" size="1.27" layer="25"/>
 <attribute name="VALUE" x="115.715" y="115.095" size="1.27" layer="27"/>
 </element>
-<element name="S8" library="switch-omron" package="B3F-10XX" value="" x="156" y="126.75" rot="R270">
+<element name="S8" library="switch-omron" package="B3F-10XX" value="" x="156" y="126.75" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="156" y="126.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="B3F-1000" x="156" y="126.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="159.683" y="129.798" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="OC_FARNELL" value="176432" x="156" y="126.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="36M3542" x="156" y="126.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="150.92" y="129.798" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="U18" library="AD7730BRUZ" package="RU_24" value="AD7730BRUZ" x="183.95" y="99.45" smashed="yes">
 <attribute name="NAME" x="183.0298" y="93.615" size="1.27" layer="25" ratio="6" rot="SR0"/>
@@ -5704,7 +5708,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <attribute name="OC_NEWARK" value="01P4099" x="224.9" y="124.15" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="QFP-64" x="224.9" y="124.15" size="1.778" layer="27" display="off"/>
 <attribute name="SUPPLIER" value="STMICROELECTRONICS" x="224.9" y="124.15" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="221.4456" y="112.72" size="2.0828" layer="27" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="221.4456" y="112.72" size="1.27" layer="27" ratio="10" rot="SR0"/>
 </element>
 <element name="Y3" library="kc2520b_c1" package="KC2520B-C1" value="KC2520B-C1" x="176.15" y="102.4" smashed="yes"/>
 <element name="C11" library="rcl" package="C0603" value="100nF" x="174.1" y="101.55" smashed="yes" rot="R90">
@@ -5798,7 +5802,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <attribute name="OC_NEWARK" value="01P4099" x="224.9" y="47.45" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="QFP-64" x="224.9" y="47.45" size="1.778" layer="27" display="off"/>
 <attribute name="SUPPLIER" value="STMICROELECTRONICS" x="224.9" y="47.45" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="221.4456" y="36.02" size="2.0828" layer="27" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="221.4456" y="36.02" size="1.27" layer="27" ratio="10" rot="SR0"/>
 </element>
 <element name="Y7" library="kc2520b_c1" package="KC2520B-C1" value="KC2520B-C1" x="176.15" y="25.7" smashed="yes"/>
 <element name="C52" library="rcl" package="C0603" value="100nF" x="174.1" y="24.85" smashed="yes" rot="R90">
@@ -5984,11 +5988,13 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <attribute name="SUPPLIER" value="NXP" x="31.85" y="118.95" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="29.795" y="118.0956" size="1.27" layer="27" ratio="10" rot="SR90"/>
 </element>
-<element name="S2" library="switch-omron" package="B3F-10XX" value="" x="66.3" y="126.1" rot="R90">
+<element name="S2" library="switch-omron" package="B3F-10XX" value="" x="66.3" y="126.1" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="66.3" y="126.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="B3F-1000" x="66.3" y="126.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="62.617" y="123.052" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="OC_FARNELL" value="176432" x="66.3" y="126.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="36M3542" x="66.3" y="126.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="71.38" y="123.052" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C63" library="rcl" package="C0603" value="100nF" x="35.1" y="35" smashed="yes" rot="R90">
 <attribute name="NAME" x="35.765" y="29.815" size="1.27" layer="25" rot="R90"/>
@@ -6097,11 +6103,13 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <attribute name="SUPPLIER" value="NXP" x="31.85" y="40.95" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="28.3956" y="36.505" size="1.27" layer="27" ratio="10" rot="SR0"/>
 </element>
-<element name="S3" library="switch-omron" package="B3F-10XX" value="" x="66.3" y="50.05" rot="R90">
+<element name="S3" library="switch-omron" package="B3F-10XX" value="" x="66.3" y="50.05" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="66.3" y="50.05" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="B3F-1000" x="66.3" y="50.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="62.617" y="47.002" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="OC_FARNELL" value="176432" x="66.3" y="50.05" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="36M3542" x="66.3" y="50.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="71.38" y="47.002" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="J1" library="RPi_Extension_contr_sens_conn_board" package="JST_PH_SHDR3W50P0X200_1X3_790X450X600" value="JST_PH_B3B-PH-K-S(LF)(SN)" x="7.8" y="7.15" smashed="yes" rot="R90">
 <attribute name="3D_PACKAGE" value="" x="7.8" y="7.15" size="1.778" layer="27" rot="R90" display="off"/>
@@ -6423,27 +6431,36 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <attribute name="RS_PART_NUMBER" value="8201431P" x="95.55" y="84.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SUPPLIER_NAME" value="RS" x="95.55" y="84.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U1" library="RPi_Extension_contr_sens_conn_board" package="AMP-5103309-7-34PIN_TYCO_5103309-7" value="" x="159.25" y="7.8">
+<element name="U1" library="RPi_Extension_contr_sens_conn_board" package="AMP-5103309-7-34PIN_TYCO_5103309-7" value="" x="159.25" y="7.8" smashed="yes">
 <attribute name="MPN" value="5103309-7" x="159.25" y="7.8" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="139.304" y="13.993" size="1.27" layer="25" ratio="10" rot="SR0"/>
 <attribute name="OC_FARNELL" value="1425170" x="159.25" y="7.8" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="02M6713" x="159.25" y="7.8" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="34 WAY HEADER" x="159.25" y="7.8" size="1.778" layer="27" display="off"/>
 <attribute name="SUPPLIER" value="TycoElectronics" x="159.25" y="7.8" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="133.342" y="1.4246" size="2.0828" layer="27" ratio="10" rot="SR0"/>
 </element>
-<element name="U2" library="RPi_Extension_contr_sens_conn_board" package="AMP-5103309-7-34PIN_TYCO_5103309-7" value="" x="159.25" y="85.15">
+<element name="U2" library="RPi_Extension_contr_sens_conn_board" package="AMP-5103309-7-34PIN_TYCO_5103309-7" value="" x="159.25" y="85.15" smashed="yes">
 <attribute name="MPN" value="5103309-7" x="159.25" y="85.15" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="139.304" y="91.343" size="1.27" layer="25" ratio="10" rot="SR0"/>
 <attribute name="OC_FARNELL" value="1425170" x="159.25" y="85.15" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="02M6713" x="159.25" y="85.15" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="34 WAY HEADER" x="159.25" y="85.15" size="1.778" layer="27" display="off"/>
 <attribute name="SUPPLIER" value="TycoElectronics" x="159.25" y="85.15" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="133.342" y="78.7746" size="2.0828" layer="27" ratio="10" rot="SR0"/>
 </element>
-<element name="SV1" library="con-lsta" library_urn="urn:adsk.eagle:library:161" package="FE20-2" package3d_urn="urn:adsk.eagle:package:8184/1" value="" x="35.1" y="141.7" rot="MR180">
+<element name="SV1" library="con-lsta" library_urn="urn:adsk.eagle:library:161" package="FE20-2" package3d_urn="urn:adsk.eagle:package:8184/1" value="" x="35.1" y="141.7" smashed="yes" rot="MR180">
 <attribute name="MF" value="" x="35.1" y="141.7" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="" x="35.1" y="141.7" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="14.78" y="138.271" size="1.27" layer="26" ratio="10" rot="MR180"/>
 <attribute name="OC_FARNELL" value="unknown" x="35.1" y="141.7" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="35.1" y="141.7" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VALUE" x="9.7" y="146.399" size="1.27" layer="28" ratio="10" rot="MR180"/>
 </element>
-<element name="PL1" library="con-molex-2" package="5566-24" value="" x="289.9" y="52.95" rot="R270"/>
+<element name="PL1" library="con-molex-2" package="5566-24" value="" x="289.9" y="52.95" smashed="yes" rot="R270">
+<attribute name="NAME" x="282.915" y="32.63" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="282.915" y="77.715" size="1.27" layer="27" rot="R270"/>
+</element>
 <element name="J33" library="B4B-PH-K-S(LF)(SN)" package="SHDR4W50P0X200_1X4_990X450X600" value="" x="181.15" y="6.5" smashed="yes" rot="R90">
 <attribute name="3D_PACKAGE" value="" x="181.15" y="6.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="ALLIED_NUMBER" value="" x="181.15" y="6.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -6897,19 +6914,33 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <attribute name="OC_FARNELL" value="1612435" x="291.85" y="121.55" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="293.501" y="123.455" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="220" x="286" y="96.85" rot="R270"/>
-<element name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="68" x="280.15" y="96.85" rot="R270"/>
-<element name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="220" x="274.3" y="96.85" rot="R270"/>
+<element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="220" x="286" y="96.85" smashed="yes" rot="R270">
+<attribute name="NAME" x="287.27" y="97.485" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="283.46" y="97.485" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="68" x="280.15" y="96.85" smashed="yes" rot="R270">
+<attribute name="NAME" x="281.42" y="97.485" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="277.61" y="97.485" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="220" x="274.3" y="96.85" smashed="yes" rot="R270">
+<attribute name="NAME" x="275.57" y="97.485" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="271.76" y="97.485" size="1.27" layer="27" rot="R270"/>
+</element>
 <element name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="680" x="291.85" y="96.85" smashed="yes" rot="R270">
 <attribute name="NAME" x="293.12" y="98.535" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="289.31" y="97.485" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="JP1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="JP1" package3d_urn="urn:adsk.eagle:package:15455/1" value="" x="12.25" y="147.05" rot="R90"/>
-<element name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2031" value="22-23-2031" x="-2.6" y="50.7" rot="R270">
+<element name="JP1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="JP1" package3d_urn="urn:adsk.eagle:package:15455/1" value="" x="12.25" y="147.05" smashed="yes" rot="R90">
+<attribute name="NAME" x="14.79" y="145.399" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="14.79" y="149.971" size="1.27" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2031" value="22-23-2031" x="-2.6" y="50.7" smashed="yes" rot="R270">
 <attribute name="MF" value="MOLEX" x="-2.6" y="50.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="22-23-2031" x="-2.6" y="50.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="1.21" y="54.51" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="OC_FARNELL" value="1462950" x="-2.6" y="50.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="30C0862" x="-2.6" y="50.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="-7.68" y="54.51" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="LED5" library="led" library_urn="urn:adsk.eagle:library:259" package="LED3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="" x="-3.9" y="133.9" smashed="yes" rot="R270">
 <attribute name="MF" value="VISHAY SEMICONDUCTOR" x="-3.9" y="133.9" size="1.778" layer="27" rot="R270" display="off"/>
@@ -6923,83 +6954,83 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </element>
 <element name="C1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="SMC_A" package3d_urn="urn:adsk.eagle:package:25926/1" value="10uF" x="146.25" y="39.65" smashed="yes" rot="R90">
 <attribute name="NAME" x="148.975" y="38.45" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="148.25" y="38.05" size="1.016" layer="27" rot="R90"/>
+<attribute name="VALUE" x="148.25" y="38.05" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="SMC_A" package3d_urn="urn:adsk.eagle:package:25926/1" value="10uF" x="153.4" y="35.1" smashed="yes">
 <attribute name="NAME" x="152.25" y="36.575" size="1.27" layer="25"/>
-<attribute name="VALUE" x="151.8" y="33.1" size="1.016" layer="27"/>
+<attribute name="VALUE" x="151.8" y="33.1" size="1.27" layer="27"/>
 </element>
 <element name="C3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="SMC_A" package3d_urn="urn:adsk.eagle:package:25926/1" value="10uF" x="98.8" y="18.45" smashed="yes" rot="R270">
 <attribute name="NAME" x="96.125" y="19.75" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="96.8" y="20.05" size="1.016" layer="27" rot="R270"/>
+<attribute name="VALUE" x="96.8" y="20.05" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="SMC_A" package3d_urn="urn:adsk.eagle:package:25926/1" value="10uF" x="122.85" y="25.35" smashed="yes" rot="R270">
 <attribute name="NAME" x="122.225" y="22.25" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="120.85" y="26.95" size="1.016" layer="27" rot="R270"/>
+<attribute name="VALUE" x="120.85" y="26.95" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="SMC_A" package3d_urn="urn:adsk.eagle:package:25926/1" value="10uF" x="122.85" y="37.05" smashed="yes" rot="R90">
 <attribute name="NAME" x="121.475" y="36" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="124.85" y="35.45" size="1.016" layer="27" rot="R90"/>
+<attribute name="VALUE" x="124.85" y="35.45" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="SMC_A" package3d_urn="urn:adsk.eagle:package:25926/1" value="10uF" x="146.25" y="17.55" smashed="yes" rot="MR270">
 <attribute name="NAME" x="148.975" y="18.6" size="1.27" layer="26" rot="MR270"/>
-<attribute name="VALUE" x="148.25" y="19.15" size="1.016" layer="28" rot="MR270"/>
+<attribute name="VALUE" x="148.25" y="19.15" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="C7" library="resistor" library_urn="urn:adsk.eagle:library:348" package="SMC_A" package3d_urn="urn:adsk.eagle:package:25926/1" value="10uF" x="122.85" y="31.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="121.425" y="30.4" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="124.85" y="29.6" size="1.016" layer="27" rot="R90"/>
+<attribute name="VALUE" x="124.85" y="29.6" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C8" library="resistor" library_urn="urn:adsk.eagle:library:348" package="SMC_A" package3d_urn="urn:adsk.eagle:package:25926/1" value="10uF" x="146.9" y="24.05" smashed="yes" rot="MR270">
 <attribute name="NAME" x="149.525" y="25.1" size="1.27" layer="26" rot="MR270"/>
-<attribute name="VALUE" x="148.9" y="25.65" size="1.016" layer="28" rot="MR270"/>
+<attribute name="VALUE" x="148.9" y="25.65" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="C9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="SMC_A" package3d_urn="urn:adsk.eagle:package:25926/1" value="10uF" x="101.15" y="100.15" smashed="yes" rot="R90">
 <attribute name="NAME" x="99.725" y="99" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="103.15" y="98.55" size="1.016" layer="27" rot="R90"/>
+<attribute name="VALUE" x="103.15" y="98.55" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C10" library="resistor" library_urn="urn:adsk.eagle:library:348" package="SMC_A" package3d_urn="urn:adsk.eagle:package:25926/1" value="10uF" x="122.85" y="102.05" smashed="yes" rot="R270">
 <attribute name="NAME" x="122.225" y="99.3" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="120.85" y="103.65" size="1.016" layer="27" rot="R270"/>
+<attribute name="VALUE" x="120.85" y="103.65" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C21" library="resistor" library_urn="urn:adsk.eagle:library:348" package="SMC_A" package3d_urn="urn:adsk.eagle:package:25926/1" value="10uF" x="146.9" y="117" smashed="yes" rot="R90">
 <attribute name="NAME" x="149.425" y="115.3" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="148.9" y="115.4" size="1.016" layer="27" rot="R90"/>
+<attribute name="VALUE" x="148.9" y="115.4" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C22" library="resistor" library_urn="urn:adsk.eagle:library:348" package="SMC_A" package3d_urn="urn:adsk.eagle:package:25926/1" value="10uF" x="153.4" y="112.45" smashed="yes">
 <attribute name="NAME" x="151.45" y="113.75" size="1.27" layer="25"/>
-<attribute name="VALUE" x="151.8" y="110.45" size="1.016" layer="27"/>
+<attribute name="VALUE" x="151.8" y="110.45" size="1.27" layer="27"/>
 </element>
 <element name="C23" library="resistor" library_urn="urn:adsk.eagle:library:348" package="SMC_A" package3d_urn="urn:adsk.eagle:package:25926/1" value="10uF" x="122.85" y="113.75" smashed="yes" rot="R90">
 <attribute name="NAME" x="121.675" y="112.35" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="124.85" y="112.15" size="1.016" layer="27" rot="R90"/>
+<attribute name="VALUE" x="124.85" y="112.15" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C24" library="resistor" library_urn="urn:adsk.eagle:library:348" package="SMC_A" package3d_urn="urn:adsk.eagle:package:25926/1" value="10uF" x="146.15" y="94.9" smashed="yes" rot="MR270">
 <attribute name="NAME" x="148.675" y="96.35" size="1.27" layer="26" rot="MR270"/>
-<attribute name="VALUE" x="148.15" y="96.5" size="1.016" layer="28" rot="MR270"/>
+<attribute name="VALUE" x="148.15" y="96.5" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="C25" library="resistor" library_urn="urn:adsk.eagle:library:348" package="SMC_A" package3d_urn="urn:adsk.eagle:package:25926/1" value="10uF" x="146.9" y="101.4" smashed="yes" rot="MR270">
 <attribute name="NAME" x="149.475" y="102.2" size="1.27" layer="26" rot="MR270"/>
-<attribute name="VALUE" x="148.9" y="103" size="1.016" layer="28" rot="MR270"/>
+<attribute name="VALUE" x="148.9" y="103" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="C26" library="resistor" library_urn="urn:adsk.eagle:library:348" package="SMC_A" package3d_urn="urn:adsk.eagle:package:25926/1" value="10uF" x="122.85" y="107.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="121.675" y="106.3" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="124.85" y="106.3" size="1.016" layer="27" rot="R90"/>
+<attribute name="VALUE" x="124.85" y="106.3" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C27" library="resistor" library_urn="urn:adsk.eagle:library:348" package="SMC_A" package3d_urn="urn:adsk.eagle:package:25926/1" value="10uF" x="13.1" y="118.95" smashed="yes" rot="R180">
 <attribute name="NAME" x="19.05" y="119.625" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="14.7" y="120.95" size="1.016" layer="27" rot="R180"/>
+<attribute name="VALUE" x="14.7" y="120.95" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C28" library="resistor" library_urn="urn:adsk.eagle:library:348" package="SMC_A" package3d_urn="urn:adsk.eagle:package:25926/1" value="10uF" x="18.15" y="107" smashed="yes" rot="R90">
 <attribute name="NAME" x="18.875" y="109.85" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="20.15" y="105.4" size="1.016" layer="27" rot="R90"/>
+<attribute name="VALUE" x="20.15" y="105.4" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C29" library="resistor" library_urn="urn:adsk.eagle:library:348" package="SMC_A" package3d_urn="urn:adsk.eagle:package:25926/1" value="10uF" x="14.15" y="41.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="20.1" y="41.825" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="15.75" y="43.1" size="1.016" layer="27" rot="R180"/>
+<attribute name="VALUE" x="15.75" y="43.1" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C30" library="resistor" library_urn="urn:adsk.eagle:library:348" package="SMC_A" package3d_urn="urn:adsk.eagle:package:25926/1" value="10uF" x="19.15" y="28.95" smashed="yes" rot="R90">
 <attribute name="NAME" x="19.825" y="31.9" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="21.15" y="27.35" size="1.016" layer="27" rot="R90"/>
+<attribute name="VALUE" x="21.15" y="27.35" size="1.27" layer="27" rot="R90"/>
 </element>
 </elements>
 <signals>

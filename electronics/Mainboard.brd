@@ -9055,7 +9055,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="141.47" y1="10.34" x2="141.47" y2="15.37" width="0.4064" layer="1"/>
 <wire x1="141.47" y1="15.37" x2="145.6" y2="19.5" width="0.4064" layer="1"/>
 </signal>
-<signal name="N$151">
+<signal name="DAC_1_CLR">
 <contactref element="U15" pad="2"/>
 <contactref element="R16" pad="2"/>
 <wire x1="119.15" y1="40.3" x2="120.75973125" y2="40.3" width="0.4064" layer="1"/>
@@ -9063,7 +9063,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="121.31853125" y1="40.8588" x2="132.737390625" y2="40.8588" width="0.4064" layer="1"/>
 <wire x1="132.737390625" y1="40.8588" x2="138.728821875" y2="34.86736875" width="0.4064" layer="1"/>
 </signal>
-<signal name="N$152">
+<signal name="DAC_1_RST">
 <contactref element="U15" pad="3"/>
 <contactref element="R15" pad="2"/>
 <contactref element="S6" pad="4"/>
@@ -9207,7 +9207,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="145.288509375" y1="102.8999625" x2="146.1588" y2="102.029671875" width="0.4064" layer="1"/>
 <wire x1="146.1588" y1="102.029671875" x2="146.1588" y2="96.61853125" width="0.4064" layer="1"/>
 </signal>
-<signal name="N$219">
+<signal name="DAC_2_CLR">
 <contactref element="U19" pad="2"/>
 <contactref element="R20" pad="2"/>
 <wire x1="119.15" y1="117" x2="120.75973125" y2="117" width="0.4064" layer="1"/>
@@ -9215,7 +9215,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="121.31853125" y1="117.5588" x2="133.387390625" y2="117.5588" width="0.4064" layer="1"/>
 <wire x1="133.387390625" y1="117.5588" x2="138.728821875" y2="112.21736875" width="0.4064" layer="1"/>
 </signal>
-<signal name="N$220">
+<signal name="DAC_2_RST">
 <contactref element="U19" pad="3"/>
 <contactref element="R19" pad="2"/>
 <contactref element="S8" pad="4"/>
@@ -10594,19 +10594,19 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="14.3" y1="131.95" x2="23.4" y2="131.95" width="0.4064" layer="16"/>
 <wire x1="29.25" y1="41.6" x2="-0.000003125" y2="70.850003125" width="0.4064" layer="16"/>
 </signal>
-<signal name="N$37">
+<signal name="ADC_2_REFCAP">
 <contactref element="C45" pad="2"/>
 <contactref element="U5" pad="31"/>
 <wire x1="55.07" y1="112.775" x2="57.1" y2="112.775" width="0.4064" layer="1"/>
 <wire x1="57.1" y1="112.775" x2="57.1" y2="112.75" width="0.4064" layer="1"/>
 </signal>
-<signal name="N$38">
+<signal name="ADC_2_COM_MODE">
 <contactref element="U5" pad="40"/>
 <contactref element="R2" pad="1"/>
 <wire x1="55.07" y1="118.625" x2="60.225" y2="118.625" width="0.4064" layer="1"/>
 <wire x1="60.225" y1="118.625" x2="60.25" y2="118.65" width="0.4064" layer="1"/>
 </signal>
-<signal name="N$39">
+<signal name="ADC_2_RST">
 <contactref element="U5" pad="36"/>
 <contactref element="R4" pad="1"/>
 <contactref element="S2" pad="1"/>
@@ -10619,21 +10619,6 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="52.65" y1="115.7" x2="61.1" y2="115.7" width="0.4064" layer="16"/>
 <wire x1="61.1" y1="115.7" x2="64.0394" y2="118.6394" width="0.4064" layer="16"/>
 </signal>
-<signal name="N$40">
-<contactref element="U5" pad="33"/>
-<contactref element="C62" pad="2"/>
-<contactref element="R6" pad="1"/>
-<wire x1="26.4" y1="105.5" x2="28" y2="105.5" width="0.4064" layer="1"/>
-<via x="28" y="105.5" extent="1-16" drill="0.7"/>
-<wire x1="28" y1="105.5" x2="54.042984375" y2="105.5" width="0.4064" layer="16"/>
-<wire x1="54.042984375" y1="105.5" x2="58.5" y2="109.957015625" width="0.4064" layer="16"/>
-<via x="58.5" y="114.6" extent="1-16" drill="0.7"/>
-<wire x1="55.07" y1="114.075" x2="56.675" y2="114.075" width="0.4064" layer="1"/>
-<wire x1="56.675" y1="114.075" x2="57.2" y2="114.6" width="0.4064" layer="1"/>
-<wire x1="57.2" y1="114.6" x2="58.5" y2="114.6" width="0.4064" layer="1"/>
-<wire x1="58.5" y1="114.6" x2="58.5" y2="109.957015625" width="0.4064" layer="16"/>
-<wire x1="58.5" y1="114.6" x2="60.25" y2="114.6" width="0.4064" layer="16"/>
-</signal>
 <signal name="N$41">
 <contactref element="U5" pad="68"/>
 <contactref element="U6" pad="4"/>
@@ -10643,7 +10628,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="34.6" y1="117.8" x2="37.7" y2="114.7" width="0.4064" layer="1"/>
 <wire x1="37.7" y1="114.7" x2="38.325" y2="114.075" width="0.4064" layer="1"/>
 </signal>
-<signal name="N$63">
+<signal name="ADC_2_REGCAP">
 <contactref element="U5" pad="70"/>
 <contactref element="C48" pad="1"/>
 <contactref element="C49" pad="1"/>
@@ -10653,7 +10638,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <via x="42.75" y="112.8" extent="1-16" drill="0.7"/>
 <wire x1="42.75" y1="112.8" x2="41.2" y2="112.8" width="0.4064" layer="16"/>
 </signal>
-<signal name="N$64">
+<signal name="ADC_2_REGCAPD">
 <contactref element="U5" pad="52"/>
 <contactref element="C51" pad="1"/>
 <contactref element="C50" pad="1"/>
@@ -10663,19 +10648,19 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="46.5" y1="122.45" x2="48.05" y2="122.45" width="0.4064" layer="16"/>
 <wire x1="44.95" y1="122.45" x2="46.5" y2="122.45" width="0.4064" layer="16"/>
 </signal>
-<signal name="N$73">
+<signal name="ADC_1_REFCAP">
 <contactref element="C76" pad="2"/>
 <contactref element="U8" pad="31"/>
 <wire x1="55.07" y1="34.775" x2="57.1" y2="34.775" width="0.4064" layer="1"/>
 <wire x1="57.1" y1="34.775" x2="57.1" y2="34.75" width="0.4064" layer="1"/>
 </signal>
-<signal name="N$74">
+<signal name="ADC_1_COM_MODE">
 <contactref element="U8" pad="40"/>
 <contactref element="R7" pad="1"/>
 <wire x1="55.07" y1="40.625" x2="60.225" y2="40.625" width="0.4064" layer="1"/>
 <wire x1="60.225" y1="40.625" x2="60.25" y2="40.65" width="0.4064" layer="1"/>
 </signal>
-<signal name="N$75">
+<signal name="ADC_1_RST">
 <contactref element="U8" pad="36"/>
 <contactref element="R8" pad="1"/>
 <contactref element="S3" pad="1"/>
@@ -10688,20 +10673,20 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="64.0394" y1="40.6394" x2="61.1" y2="37.7" width="0.4064" layer="16"/>
 <wire x1="61.1" y1="37.7" x2="52.65" y2="37.7" width="0.4064" layer="16"/>
 </signal>
-<signal name="N$76">
-<contactref element="U8" pad="33"/>
-<contactref element="C83" pad="2"/>
-<contactref element="R9" pad="1"/>
-<wire x1="26.4" y1="27.5" x2="28" y2="27.5" width="0.4064" layer="1"/>
-<via x="28" y="27.5" extent="1-16" drill="0.7"/>
-<wire x1="28" y1="27.5" x2="54.042984375" y2="27.5" width="0.4064" layer="16"/>
-<wire x1="54.042984375" y1="27.5" x2="58.5" y2="31.957015625" width="0.4064" layer="16"/>
-<via x="58.5" y="36.6" extent="1-16" drill="0.7"/>
-<wire x1="55.07" y1="36.075" x2="56.675" y2="36.075" width="0.4064" layer="1"/>
-<wire x1="56.675" y1="36.075" x2="57.2" y2="36.6" width="0.4064" layer="1"/>
-<wire x1="57.2" y1="36.6" x2="58.5" y2="36.6" width="0.4064" layer="1"/>
-<wire x1="58.5" y1="36.6" x2="58.5" y2="31.957015625" width="0.4064" layer="16"/>
-<wire x1="60.25" y1="36.6" x2="58.5" y2="36.6" width="0.4064" layer="16"/>
+<signal name="ADC_2_REFINOUT">
+<contactref element="U5" pad="33"/>
+<contactref element="C62" pad="2"/>
+<contactref element="R6" pad="1"/>
+<via x="28" y="105.5" extent="1-16" drill="0.7"/>
+<wire x1="28" y1="105.5" x2="54.042984375" y2="105.5" width="0.4064" layer="16"/>
+<wire x1="54.042984375" y1="105.5" x2="58.5" y2="109.957015625" width="0.4064" layer="16"/>
+<via x="58.5" y="114.6" extent="1-16" drill="0.7"/>
+<wire x1="55.07" y1="114.075" x2="56.675" y2="114.075" width="0.4064" layer="1"/>
+<wire x1="56.675" y1="114.075" x2="57.2" y2="114.6" width="0.4064" layer="1"/>
+<wire x1="57.2" y1="114.6" x2="58.5" y2="114.6" width="0.4064" layer="1"/>
+<wire x1="58.5" y1="114.6" x2="58.5" y2="109.957015625" width="0.4064" layer="16"/>
+<wire x1="58.5" y1="114.6" x2="60.25" y2="114.6" width="0.4064" layer="16"/>
+<wire x1="26.4" y1="105.5" x2="28" y2="105.5" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$77">
 <contactref element="U8" pad="68"/>
@@ -10711,7 +10696,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="34.1104" y1="40.2896" x2="37.7" y2="36.7" width="0.4064" layer="1"/>
 <wire x1="37.7" y1="36.7" x2="38.325" y2="36.075" width="0.4064" layer="1"/>
 </signal>
-<signal name="N$86">
+<signal name="ADC_1_REGCAP">
 <contactref element="U8" pad="70"/>
 <contactref element="C79" pad="1"/>
 <contactref element="C80" pad="1"/>
@@ -10721,7 +10706,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <via x="42.75" y="34.8" extent="1-16" drill="0.7"/>
 <wire x1="42.75" y1="34.8" x2="41.2" y2="34.8" width="0.4064" layer="16"/>
 </signal>
-<signal name="N$87">
+<signal name="ADC_1_REGCAPD">
 <contactref element="U8" pad="52"/>
 <contactref element="C82" pad="1"/>
 <contactref element="C81" pad="1"/>
@@ -10744,30 +10729,17 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="178.025" y1="25.675" x2="178" y2="25.7" width="0.254" layer="1"/>
 </signal>
 <signal name="ADC_2_VREF">
-<contactref element="U7" pad="6"/>
-<contactref element="C66" pad="1"/>
-<contactref element="C67" pad="1"/>
-<wire x1="14.365" y1="30.2878" x2="14.365" y2="27.485" width="0.4064" layer="1"/>
-<wire x1="14.365" y1="27.485" x2="14.4" y2="27.45" width="0.4064" layer="1"/>
-<contactref element="R9" pad="2"/>
-<wire x1="24.7" y1="27.5" x2="24.65" y2="27.45" width="0.4064" layer="1"/>
-<wire x1="24.65" y1="27.45" x2="21.4" y2="27.45" width="0.4064" layer="1"/>
-<contactref element="C30" pad="+"/>
-<wire x1="21.4" y1="27.45" x2="19.15" y2="27.45" width="0.4064" layer="1"/>
-<wire x1="19.15" y1="27.45" x2="14.4" y2="27.45" width="0.4064" layer="1"/>
-</signal>
-<signal name="ADC_1_VREF">
 <contactref element="U4" pad="6"/>
 <contactref element="C35" pad="1"/>
 <contactref element="C36" pad="1"/>
-<contactref element="R6" pad="2"/>
-<wire x1="14.285603125" y1="105.503690625" x2="14.4" y2="105.5" width="0.4064" layer="1"/>
-<wire x1="24.7" y1="105.5" x2="21.4" y2="105.5" width="0.4064" layer="1"/>
 <contactref element="C28" pad="+"/>
+<wire x1="14.285603125" y1="105.503690625" x2="14.4" y2="105.5" width="0.4064" layer="1"/>
 <wire x1="14.4" y1="105.5" x2="19.15" y2="105.5" width="0.4064" layer="1"/>
 <wire x1="21.4" y1="105.5" x2="19.15" y2="105.5" width="0.4064" layer="1"/>
 <wire x1="14.365" y1="108.3378" x2="14.365" y2="105.5830875" width="0.4064" layer="1"/>
 <wire x1="14.365" y1="105.5830875" x2="14.285603125" y2="105.503690625" width="0.4064" layer="1"/>
+<contactref element="R6" pad="2"/>
+<wire x1="21.4" y1="105.5" x2="24.7" y2="105.5" width="0.4064" layer="1"/>
 </signal>
 <signal name="VREF_1">
 <contactref element="U16" pad="6"/>
@@ -11181,22 +11153,22 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="287.15" y1="59.25" x2="285.9" y2="59.25" width="0.4064" layer="16"/>
 <wire x1="285.9" y1="59.25" x2="284.05" y2="61.1" width="0.4064" layer="16"/>
 </signal>
-<signal name="N$2">
+<signal name="PG_CURR_LIM">
 <contactref element="LED3" pad="A"/>
 <contactref element="R1" pad="1"/>
 <wire x1="286" y1="120.28" x2="286" y2="97.8" width="0.4064" layer="1"/>
 </signal>
-<signal name="N$3">
+<signal name="DVCC_CURR_LIM">
 <contactref element="LED2" pad="A"/>
 <contactref element="R3" pad="1"/>
 <wire x1="280.15" y1="120.28" x2="280.15" y2="97.8" width="0.4064" layer="1"/>
 </signal>
-<signal name="N$4">
+<signal name="+5V_CURR_LIM">
 <contactref element="LED1" pad="A"/>
 <contactref element="R5" pad="1"/>
 <wire x1="274.3" y1="120.28" x2="274.3" y2="97.8" width="0.4064" layer="1"/>
 </signal>
-<signal name="N$5">
+<signal name="VDD_CURR_LIM">
 <contactref element="LED4" pad="A"/>
 <contactref element="R10" pad="1"/>
 <wire x1="291.85" y1="120.28" x2="291.85" y2="97.8" width="0.4064" layer="1"/>
@@ -11209,7 +11181,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="10.97" y1="142.97" x2="10.97" y2="147.69" width="1.27" layer="1"/>
 <wire x1="10.97" y1="147.69" x2="10.98" y2="147.05" width="1.27" layer="1"/>
 </signal>
-<signal name="N$6">
+<signal name="HB_CURR_LIM">
 <contactref element="LED5" pad="A"/>
 <contactref element="R11" pad="1"/>
 <wire x1="0.25" y1="136.5" x2="-2.57" y2="136.5" width="0.4064" layer="1"/>
@@ -11471,6 +11443,34 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </signal>
 <signal name="LC_1_PB7">
 <contactref element="U22" pad="59"/>
+</signal>
+<signal name="ADC_1_REFINOUT">
+<contactref element="U8" pad="33"/>
+<contactref element="C83" pad="2"/>
+<contactref element="R9" pad="1"/>
+<via x="28" y="27.5" extent="1-16" drill="0.7"/>
+<wire x1="28" y1="27.5" x2="54.042984375" y2="27.5" width="0.4064" layer="16"/>
+<wire x1="54.042984375" y1="27.5" x2="58.5" y2="31.957015625" width="0.4064" layer="16"/>
+<via x="58.5" y="36.6" extent="1-16" drill="0.7"/>
+<wire x1="55.07" y1="36.075" x2="56.675" y2="36.075" width="0.4064" layer="1"/>
+<wire x1="56.675" y1="36.075" x2="57.2" y2="36.6" width="0.4064" layer="1"/>
+<wire x1="57.2" y1="36.6" x2="58.5" y2="36.6" width="0.4064" layer="1"/>
+<wire x1="58.5" y1="36.6" x2="58.5" y2="31.957015625" width="0.4064" layer="16"/>
+<wire x1="60.25" y1="36.6" x2="58.5" y2="36.6" width="0.4064" layer="16"/>
+<wire x1="28" y1="27.5" x2="26.4" y2="27.5" width="0.4064" layer="1"/>
+</signal>
+<signal name="ADC_1_VREF">
+<contactref element="R9" pad="2"/>
+<contactref element="U7" pad="6"/>
+<contactref element="C66" pad="1"/>
+<contactref element="C67" pad="1"/>
+<contactref element="C30" pad="+"/>
+<wire x1="14.365" y1="30.2878" x2="14.365" y2="27.485" width="0.4064" layer="1"/>
+<wire x1="14.365" y1="27.485" x2="14.4" y2="27.45" width="0.4064" layer="1"/>
+<wire x1="21.4" y1="27.45" x2="19.15" y2="27.45" width="0.4064" layer="1"/>
+<wire x1="19.15" y1="27.45" x2="14.4" y2="27.45" width="0.4064" layer="1"/>
+<wire x1="21.4" y1="27.45" x2="24.65" y2="27.45" width="0.4064" layer="1"/>
+<wire x1="24.65" y1="27.45" x2="24.7" y2="27.5" width="0.4064" layer="1"/>
 </signal>
 </signals>
 </board>

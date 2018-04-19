@@ -22403,12 +22403,13 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <label x="129.54" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$41" class="0">
+<net name="ADC_2_CONVST" class="0">
 <segment>
 <pinref part="U5" gate="A" pin="CONVST"/>
 <pinref part="U6" gate="A" pin="Y"/>
 <wire x1="129.54" y1="45.72" x2="172.72" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="45.72" x2="172.72" y2="12.7" width="0.1524" layer="91"/>
+<label x="129.54" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ADC_2_REGCAP" class="0">
@@ -22482,12 +22483,13 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <label x="129.54" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$77" class="0">
+<net name="ADC_1_CONVST" class="0">
 <segment>
 <pinref part="U8" gate="A" pin="CONVST"/>
 <pinref part="U9" gate="A" pin="Y"/>
 <wire x1="541.02" y1="40.64" x2="584.2" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="584.2" y1="40.64" x2="584.2" y2="7.62" width="0.1524" layer="91"/>
+<label x="541.02" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ADC_1_REGCAP" class="0">
@@ -23007,6 +23009,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <junction x="104.14" y="139.7"/>
 <pinref part="C6" gate="G$1" pin="-"/>
 <junction x="104.14" y="127"/>
+<junction x="111.76" y="127"/>
 </segment>
 <segment>
 <pinref part="C113" gate="G$1" pin="2"/>
@@ -23118,6 +23121,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <junction x="467.36" y="134.62"/>
 <pinref part="C24" gate="G$1" pin="-"/>
 <junction x="467.36" y="121.92"/>
+<junction x="474.98" y="121.92"/>
 </segment>
 <segment>
 <pinref part="C147" gate="G$1" pin="2"/>
@@ -27020,8 +27024,8 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <instance part="R5" gate="G$1" x="335.28" y="264.16" rot="R90"/>
 <instance part="R10" gate="G$1" x="345.44" y="264.16" rot="R90"/>
 <instance part="P+54" gate="1" x="335.28" y="284.48"/>
-<instance part="JP1" gate="A" x="30.48" y="220.98"/>
-<instance part="P+55" gate="1" x="30.48" y="205.74" rot="R180"/>
+<instance part="JP1" gate="A" x="30.48" y="213.36"/>
+<instance part="P+55" gate="1" x="30.48" y="200.66" rot="R180"/>
 <instance part="X1" gate="-1" x="116.84" y="264.16"/>
 <instance part="X1" gate="-2" x="116.84" y="261.62"/>
 <instance part="X1" gate="-3" x="116.84" y="259.08"/>
@@ -27289,7 +27293,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <segment>
 <pinref part="P+55" gate="1" pin="+5V"/>
 <pinref part="JP1" gate="A" pin="1"/>
-<wire x1="30.48" y1="208.28" x2="30.48" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="203.2" x2="30.48" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VSS" class="0">
@@ -28985,16 +28989,17 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <label x="345.44" y="233.68" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="RPI_PWR" class="0">
 <segment>
 <pinref part="SV1" gate="G$1" pin="4"/>
 <wire x1="20.32" y1="236.22" x2="30.48" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="236.22" x2="30.48" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="233.68" x2="30.48" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="233.68" x2="30.48" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="233.68" x2="30.48" y2="233.68" width="0.1524" layer="91"/>
 <junction x="30.48" y="233.68"/>
 <pinref part="JP1" gate="A" pin="2"/>
+<label x="33.02" y="220.98" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="HB_CURR_LIM" class="0">

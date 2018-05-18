@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.0">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -28877,19 +28877,11 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <label x="-7.62" y="261.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LDAC" class="0">
-<segment>
-<pinref part="SV1" gate="G$1" pin="18"/>
-<wire x1="20.32" y1="254" x2="25.4" y2="254" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="254" x2="27.94" y2="254" width="0.1524" layer="91"/>
-<label x="27.94" y="254" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="CONVST" class="0">
 <segment>
-<pinref part="SV1" gate="G$1" pin="16"/>
-<wire x1="20.32" y1="251.46" x2="27.94" y2="251.46" width="0.1524" layer="91"/>
-<label x="27.94" y="251.46" size="1.778" layer="95"/>
+<pinref part="SV1" gate="G$1" pin="11"/>
+<wire x1="5.08" y1="246.38" x2="-2.54" y2="246.38" width="0.1524" layer="91"/>
+<label x="-7.62" y="246.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DVCC" class="0">
@@ -30160,37 +30152,30 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </net>
 <net name="SS_ADC_2" class="0">
 <segment>
-<pinref part="SV1" gate="G$1" pin="31"/>
-<wire x1="5.08" y1="271.78" x2="-2.54" y2="271.78" width="0.1524" layer="91"/>
-<label x="-15.24" y="271.78" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SS_DAC_1" class="0">
-<segment>
-<pinref part="SV1" gate="G$1" pin="35"/>
-<wire x1="5.08" y1="276.86" x2="-2.54" y2="276.86" width="0.1524" layer="91"/>
-<label x="-15.24" y="276.86" size="1.778" layer="95"/>
+<pinref part="SV1" gate="G$1" pin="13"/>
+<wire x1="5.08" y1="248.92" x2="-2.54" y2="248.92" width="0.1524" layer="91"/>
+<label x="-7.62" y="248.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SS_DAC_2" class="0">
 <segment>
-<pinref part="SV1" gate="G$1" pin="36"/>
-<wire x1="20.32" y1="276.86" x2="27.94" y2="276.86" width="0.1524" layer="91"/>
-<label x="27.94" y="276.86" size="1.778" layer="95"/>
+<pinref part="SV1" gate="G$1" pin="40"/>
+<wire x1="20.32" y1="281.94" x2="27.94" y2="281.94" width="0.1524" layer="91"/>
+<label x="27.94" y="281.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SS_LC_1" class="0">
 <segment>
-<pinref part="SV1" gate="G$1" pin="32"/>
-<wire x1="20.32" y1="271.78" x2="27.94" y2="271.78" width="0.1524" layer="91"/>
-<label x="27.94" y="271.78" size="1.778" layer="95"/>
+<pinref part="SV1" gate="G$1" pin="38"/>
+<wire x1="20.32" y1="279.4" x2="27.94" y2="279.4" width="0.1524" layer="91"/>
+<label x="27.94" y="279.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SS_LC_2" class="0">
 <segment>
-<pinref part="SV1" gate="G$1" pin="26"/>
-<wire x1="20.32" y1="264.16" x2="27.94" y2="264.16" width="0.1524" layer="91"/>
-<label x="27.94" y="264.16" size="1.778" layer="95"/>
+<pinref part="SV1" gate="G$1" pin="37"/>
+<wire x1="5.08" y1="279.4" x2="-2.54" y2="279.4" width="0.1524" layer="91"/>
+<label x="-15.24" y="279.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ADC1_15" class="0">
@@ -30952,6 +30937,20 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <pinref part="J48" gate="G$1" pin="4"/>
 <wire x1="345.44" y1="0" x2="342.9" y2="0" width="0.1524" layer="91"/>
 <label x="325.12" y="0" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LDAC" class="0">
+<segment>
+<pinref part="SV1" gate="G$1" pin="35"/>
+<wire x1="5.08" y1="276.86" x2="-2.54" y2="276.86" width="0.1524" layer="91"/>
+<label x="-15.24" y="276.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SS_DAC_1" class="0">
+<segment>
+<pinref part="SV1" gate="G$1" pin="36"/>
+<wire x1="20.32" y1="276.86" x2="27.94" y2="276.86" width="0.1524" layer="91"/>
+<label x="27.94" y="276.86" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

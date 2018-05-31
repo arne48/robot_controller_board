@@ -23373,6 +23373,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3"/>
 <part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3"/>
 <part name="Q1" library="transistor-npn" library_urn="urn:adsk.eagle:library:398" deviceset="BCF29*" device="SMD" package3d_urn="urn:adsk.eagle:package:28990/2" value=""/>
+<part name="R12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="1k"/>
 </parts>
 <sheets>
 <sheet>
@@ -28929,6 +28930,10 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <attribute name="NAME" x="299.72" y="269.24" size="1.778" layer="95"/>
 <attribute name="VALUE" x="292.1" y="279.4" size="1.778" layer="96"/>
 </instance>
+<instance part="R12" gate="G$1" x="289.56" y="274.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="290.83" y="272.8214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="290.83" y="277.622" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -30833,6 +30838,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <pinref part="S1" gate="G$1" pin="2"/>
 <wire x1="403.86" y1="256.54" x2="396.24" y2="256.54" width="0.1524" layer="91"/>
 <label x="386.08" y="256.54" size="1.778" layer="95"/>
+<wire x1="396.24" y1="256.54" x2="386.08" y2="256.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="POWER_GOOD" class="0">
@@ -30842,9 +30848,9 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <label x="180.34" y="289.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="Q1" gate="G$1" pin="B"/>
-<wire x1="299.72" y1="274.32" x2="276.86" y2="274.32" width="0.1524" layer="91"/>
-<label x="276.86" y="274.32" size="1.778" layer="95"/>
+<label x="266.7" y="274.32" size="1.778" layer="95"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="269.24" y1="274.32" x2="284.48" y2="274.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PG_CURR_LIM" class="0">
@@ -31044,6 +31050,14 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <pinref part="Q1" gate="G$1" pin="E"/>
 <wire x1="304.8" y1="266.7" x2="304.8" y2="269.24" width="0.1524" layer="91"/>
 <label x="309.88" y="256.54" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="PG_SIG" class="0">
+<segment>
+<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="Q1" gate="G$1" pin="B"/>
+<wire x1="294.64" y1="274.32" x2="299.72" y2="274.32" width="0.1524" layer="91"/>
+<label x="299.72" y="274.32" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>

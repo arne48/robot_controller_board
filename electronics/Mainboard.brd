@@ -5737,9 +5737,9 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <attribute name="NAME" x="172.565" y="98.485" size="1.27" layer="25"/>
 <attribute name="VALUE" x="176.655" y="100.915" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C12" library="rcl" package="C0603" value="100nF" x="215.3" y="122.25" smashed="yes">
-<attribute name="NAME" x="213.665" y="123.685" size="1.27" layer="25"/>
-<attribute name="VALUE" x="214.665" y="120.345" size="1.27" layer="27"/>
+<element name="C12" library="rcl" package="C0603" value="100nF" x="214" y="122.9" smashed="yes">
+<attribute name="NAME" x="212.365" y="120.435" size="1.27" layer="25"/>
+<attribute name="VALUE" x="213.365" y="120.995" size="1.27" layer="27"/>
 </element>
 <element name="C13" library="rcl" package="C0603" value="100nF" x="231.9" y="117.5" smashed="yes" rot="R315">
 <attribute name="NAME" x="231.9" y="119.3172625" size="1.27" layer="25" rot="R315"/>
@@ -5749,9 +5749,9 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <attribute name="NAME" x="234.472253125" y="126.686215625" size="1.27" layer="25" rot="R45"/>
 <attribute name="VALUE" x="234.748025" y="127.753946875" size="1.27" layer="27" rot="R45"/>
 </element>
-<element name="C15" library="rcl" package="C0603" value="100nF" x="222.15" y="114.9" smashed="yes" rot="R270">
-<attribute name="NAME" x="223.435" y="116.185" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="219.595" y="116.835" size="1.27" layer="27" rot="R270"/>
+<element name="C15" library="rcl" package="C0603" value="100nF" x="220.2" y="115.85" smashed="yes" rot="R180">
+<attribute name="NAME" x="221.485" y="114.565" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="222.135" y="118.405" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C16" library="rcl" package="C0603" value="100nF" x="221.15" y="133.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="219.515" y="135.585" size="1.27" layer="25"/>
@@ -5831,9 +5831,9 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <attribute name="NAME" x="174.765" y="26.815" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="176.005" y="24.215" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C53" library="rcl" package="C0603" value="100nF" x="222.15" y="38.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="220.715" y="36.565" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="224.055" y="37.565" size="1.27" layer="27" rot="R90"/>
+<element name="C53" library="rcl" package="C0603" value="100nF" x="220.2" y="39.15" smashed="yes">
+<attribute name="NAME" x="218.565" y="36.685" size="1.27" layer="25"/>
+<attribute name="VALUE" x="219.565" y="37.245" size="1.27" layer="27"/>
 </element>
 <element name="C54" library="rcl" package="C0603" value="100nF" x="231.9" y="40.8" smashed="yes" rot="R315">
 <attribute name="NAME" x="231.74228125" y="43.109546875" size="1.27" layer="25" rot="R315"/>
@@ -5847,9 +5847,9 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <attribute name="NAME" x="219.865" y="55.065" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="223.055" y="55.715" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C57" library="rcl" package="C0603" value="100nF" x="215.3" y="45.55" smashed="yes" rot="R180">
-<attribute name="NAME" x="216.685" y="43.915" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="215.935" y="47.455" size="1.27" layer="27" rot="R180"/>
+<element name="C57" library="rcl" package="C0603" value="100nF" x="214" y="46.2" smashed="yes" rot="R180">
+<attribute name="NAME" x="215.385" y="44.565" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="214.635" y="48.105" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="SV21" library="con-lstb" package="MA03-2" value="" x="243.1" y="55.1" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="243.1" y="55.1" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5957,9 +5957,9 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <attribute name="NAME" x="53.715" y="109.765" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="54.265" y="112.705" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="C45" library="rcl" package="C0603" value="10uF" x="57.95" y="112.75" smashed="yes" rot="R180">
-<attribute name="NAME" x="59.385" y="111.465" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="60.535" y="115.305" size="1.27" layer="27" rot="R180"/>
+<element name="C45" library="rcl" package="C0603" value="10uF" x="57.95" y="112.65" smashed="yes" rot="R180">
+<attribute name="NAME" x="59.385" y="111.365" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="60.535" y="115.205" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C46" library="rcl" package="C0603" value="100nF" x="50.7" y="123.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="51.35" y="125.45" size="1.27" layer="25" rot="R90"/>
@@ -6072,9 +6072,9 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <attribute name="NAME" x="53.715" y="31.765" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="54.265" y="34.705" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="C76" library="rcl" package="C0603" value="10uF" x="57.95" y="34.75" smashed="yes" rot="R180">
-<attribute name="NAME" x="60.035" y="33.465" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="58.585" y="36.655" size="1.27" layer="27" rot="R180"/>
+<element name="C76" library="rcl" package="C0603" value="10uF" x="57.9" y="34.65" smashed="yes" rot="R180">
+<attribute name="NAME" x="59.985" y="33.365" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="58.535" y="36.555" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C77" library="rcl" package="C0603" value="100nF" x="50.7" y="45.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="51.35" y="47.45" size="1.27" layer="25" rot="R90"/>
@@ -6912,21 +6912,21 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <attribute name="SUPPLIER_NAME" value="RS" x="282.75" y="131.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="279.655" y="135.872" size="1.27" layer="51" align="center"/>
 </element>
-<element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="68" x="286" y="104" smashed="yes" rot="R270">
-<attribute name="NAME" x="285.32" y="101.735" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="283.46" y="104.635" size="1.27" layer="27" rot="R270"/>
+<element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="68" x="286" y="110.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="285.32" y="108.235" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="283.46" y="111.135" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="68" x="280.15" y="104" smashed="yes" rot="R270">
-<attribute name="NAME" x="279.47" y="101.685" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="277.61" y="104.635" size="1.27" layer="27" rot="R270"/>
+<element name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="68" x="280.15" y="106.6" smashed="yes" rot="R270">
+<attribute name="NAME" x="279.47" y="104.285" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="277.61" y="107.235" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="220" x="274.3" y="110.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="273.62" y="108.235" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="271.76" y="111.135" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="680" x="291.85" y="104" smashed="yes" rot="R270">
-<attribute name="NAME" x="291.22" y="101.735" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="289.31" y="104.635" size="1.27" layer="27" rot="R270"/>
+<element name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="680" x="291.85" y="106.6" smashed="yes" rot="R270">
+<attribute name="NAME" x="291.22" y="104.335" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="289.31" y="107.235" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="JP1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="JP1" package3d_urn="urn:adsk.eagle:package:15455/1" value="" x="12.25" y="150.95" smashed="yes" rot="R90">
 <attribute name="NAME" x="14.79" y="149.299" size="1.27" layer="25" ratio="10" rot="R180"/>
@@ -7032,7 +7032,8 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <element name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="" x="274.3" y="120.25"/>
 <element name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="" x="280.15" y="120.25"/>
 <element name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="" x="286" y="120.25"/>
-<element name="Q1" library="transistor-npn" library_urn="urn:adsk.eagle:library:398" package="SOT23-BEC" package3d_urn="urn:adsk.eagle:package:28990/2" value="" x="284.9" y="96.15" rot="R90"/>
+<element name="Q1" library="transistor-npn" library_urn="urn:adsk.eagle:library:398" package="SOT23-BEC" package3d_urn="urn:adsk.eagle:package:28990/2" value="" x="284.9" y="100.05" rot="R90"/>
+<element name="R12" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="1k" x="286" y="94.25" rot="R270"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -7227,13 +7228,13 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <contactref element="C49" pad="2"/>
 <contactref element="C51" pad="2"/>
 <contactref element="C50" pad="2"/>
-<via x="52.65" y="117.65" extent="1-16" drill="0.5"/>
-<via x="46.15" y="115.7" extent="1-16" drill="0.5"/>
-<via x="49.4" y="115.7" extent="1-16" drill="0.5"/>
-<via x="26.65" y="123.5" extent="1-16" drill="0.5"/>
-<via x="26" y="114.4" extent="1-16" drill="0.5"/>
-<via x="26.65" y="109.2" extent="1-16" drill="0.5"/>
-<via x="20.8" y="114.4" extent="1-16" drill="0.5"/>
+<via x="52.65" y="117.65" extent="1-16" drill="0.4"/>
+<via x="46.15" y="115.7" extent="1-16" drill="0.4"/>
+<via x="49.4" y="115.7" extent="1-16" drill="0.4"/>
+<via x="26.65" y="123.5" extent="1-16" drill="0.4"/>
+<via x="26" y="114.4" extent="1-16" drill="0.4"/>
+<via x="26.65" y="109.2" extent="1-16" drill="0.4"/>
+<via x="20.8" y="114.4" extent="1-16" drill="0.4"/>
 <contactref element="S2" pad="3"/>
 <contactref element="S2" pad="4"/>
 <contactref element="C63" pad="2"/>
@@ -7287,12 +7288,12 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <contactref element="C80" pad="2"/>
 <contactref element="C82" pad="2"/>
 <contactref element="C81" pad="2"/>
-<via x="52.65" y="39.65" extent="1-16" drill="0.5"/>
-<via x="46.15" y="37.7" extent="1-16" drill="0.5"/>
-<via x="49.4" y="37.7" extent="1-16" drill="0.5"/>
-<via x="26.65" y="37.05" extent="1-16" drill="0.5"/>
-<via x="26.65" y="31.2" extent="1-16" drill="0.5"/>
-<via x="22.1" y="31.2" extent="1-16" drill="0.5"/>
+<via x="52.65" y="39.65" extent="1-16" drill="0.4"/>
+<via x="46.15" y="37.7" extent="1-16" drill="0.4"/>
+<via x="49.4" y="37.7" extent="1-16" drill="0.4"/>
+<via x="26.65" y="37.05" extent="1-16" drill="0.4"/>
+<via x="26.65" y="31.2" extent="1-16" drill="0.4"/>
+<via x="22.1" y="31.2" extent="1-16" drill="0.4"/>
 <contactref element="S3" pad="3"/>
 <contactref element="S3" pad="4"/>
 <polygon width="0.1524" layer="1" isolate="0.254">
@@ -7534,9 +7535,6 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <via x="203.45" y="126.75" extent="1-16" drill="0.3048"/>
 <via x="203.45" y="124.8" extent="1-16" drill="0.3048"/>
 <via x="203.45" y="122.85" extent="1-16" drill="0.3048"/>
-<via x="218.4" y="117.65" extent="1-16" drill="0.3048"/>
-<via x="218.4" y="115.7" extent="1-16" drill="0.3048"/>
-<via x="218.4" y="113.75" extent="1-16" drill="0.3048"/>
 <via x="218.4" y="111.8" extent="1-16" drill="0.3048"/>
 <via x="218.4" y="109.85" extent="1-16" drill="0.3048"/>
 <via x="223.6" y="120.9" extent="1-16" drill="0.3048"/>
@@ -7545,23 +7543,18 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <via x="227.5" y="122.85" extent="1-16" drill="0.3048"/>
 <via x="225.55" y="122.85" extent="1-16" drill="0.3048"/>
 <via x="223.6" y="122.85" extent="1-16" drill="0.3048"/>
-<via x="200.2" y="46.15" extent="1-16" drill="0.3048"/>
-<via x="200.2" y="48.1" extent="1-16" drill="0.3048"/>
-<via x="200.2" y="50.05" extent="1-16" drill="0.3048"/>
-<via x="200.2" y="52" extent="1-16" drill="0.3048"/>
-<via x="200.2" y="53.95" extent="1-16" drill="0.3048"/>
+<via x="199.55" y="46.15" extent="1-16" drill="0.3048"/>
+<via x="199.55" y="48.1" extent="1-16" drill="0.3048"/>
+<via x="199.55" y="50.05" extent="1-16" drill="0.3048"/>
+<via x="199.55" y="52" extent="1-16" drill="0.3048"/>
+<via x="199.55" y="53.95" extent="1-16" drill="0.3048"/>
 <via x="202.8" y="53.95" extent="1-16" drill="0.3048"/>
 <via x="202.8" y="52" extent="1-16" drill="0.3048"/>
 <via x="202.8" y="50.05" extent="1-16" drill="0.3048"/>
 <via x="202.8" y="48.1" extent="1-16" drill="0.3048"/>
 <via x="202.8" y="46.15" extent="1-16" drill="0.3048"/>
-<via x="218.4" y="40.95" extent="1-16" drill="0.3048"/>
-<via x="218.4" y="39" extent="1-16" drill="0.3048"/>
-<via x="218.4" y="37.05" extent="1-16" drill="0.3048"/>
 <via x="218.4" y="35.1" extent="1-16" drill="0.3048"/>
 <via x="218.4" y="33.15" extent="1-16" drill="0.3048"/>
-<via x="218.4" y="31.2" extent="1-16" drill="0.3048"/>
-<via x="218.4" y="107.9" extent="1-16" drill="0.3048"/>
 <via x="223.6" y="44.2" extent="1-16" drill="0.3048"/>
 <via x="225.55" y="44.2" extent="1-16" drill="0.3048"/>
 <via x="227.5" y="44.2" extent="1-16" drill="0.3048"/>
@@ -7576,14 +7569,14 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <via x="250.9" y="118.3" extent="1-16" drill="0.3048"/>
 <via x="253.5" y="118.3" extent="1-16" drill="0.3048"/>
 <via x="256.1" y="118.3" extent="1-16" drill="0.3048"/>
-<via x="237.9" y="40.95" extent="1-16" drill="0.3048"/>
-<via x="240.5" y="40.95" extent="1-16" drill="0.3048"/>
-<via x="243.1" y="40.95" extent="1-16" drill="0.3048"/>
-<via x="245.7" y="40.95" extent="1-16" drill="0.3048"/>
-<via x="248.3" y="40.95" extent="1-16" drill="0.3048"/>
-<via x="250.9" y="40.95" extent="1-16" drill="0.3048"/>
-<via x="253.5" y="40.95" extent="1-16" drill="0.3048"/>
-<via x="256.1" y="40.95" extent="1-16" drill="0.3048"/>
+<via x="237.9" y="41.6" extent="1-16" drill="0.3048"/>
+<via x="240.5" y="41.6" extent="1-16" drill="0.3048"/>
+<via x="243.1" y="41.6" extent="1-16" drill="0.3048"/>
+<via x="245.7" y="41.6" extent="1-16" drill="0.3048"/>
+<via x="248.3" y="41.6" extent="1-16" drill="0.3048"/>
+<via x="250.9" y="41.6" extent="1-16" drill="0.3048"/>
+<via x="253.5" y="41.6" extent="1-16" drill="0.3048"/>
+<via x="256.1" y="41.6" extent="1-16" drill="0.3048"/>
 <via x="248.3" y="55.25" extent="1-16" drill="0.3048"/>
 <via x="250.9" y="55.25" extent="1-16" drill="0.3048"/>
 <via x="253.5" y="55.25" extent="1-16" drill="0.3048"/>
@@ -7592,28 +7585,28 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <via x="250.9" y="131.95" extent="1-16" drill="0.3048"/>
 <via x="253.5" y="131.95" extent="1-16" drill="0.3048"/>
 <via x="256.1" y="131.95" extent="1-16" drill="0.3048"/>
-<via x="135.85" y="112.45" extent="1-16" drill="0.3048"/>
-<via x="133.9" y="110.5" extent="1-16" drill="0.3048"/>
-<via x="134.55" y="113.75" extent="1-16" drill="0.3048"/>
-<via x="132.6" y="111.8" extent="1-16" drill="0.3048"/>
-<via x="139.1" y="105.95" extent="1-16" drill="0.3048"/>
-<via x="141.7" y="105.95" extent="1-16" drill="0.3048"/>
-<via x="139.1" y="28.6" extent="1-16" drill="0.3048"/>
-<via x="141.7" y="28.6" extent="1-16" drill="0.3048"/>
-<via x="133.9" y="33.15" extent="1-16" drill="0.3048"/>
-<via x="135.85" y="35.1" extent="1-16" drill="0.3048"/>
-<via x="134.55" y="36.4" extent="1-16" drill="0.3048"/>
-<via x="132.6" y="34.45" extent="1-16" drill="0.3048"/>
-<via x="148.55" y="32.85" extent="1-16" drill="0.3048"/>
-<via x="148.5" y="110.15" extent="1-16" drill="0.3048"/>
-<via x="110.5" y="24.05" extent="1-16" drill="0.3048"/>
-<via x="113.1" y="24.05" extent="1-16" drill="0.3048"/>
-<via x="113.1" y="26" extent="1-16" drill="0.3048"/>
-<via x="110.5" y="26" extent="1-16" drill="0.3048"/>
-<via x="111.15" y="102.7" extent="1-16" drill="0.3048"/>
-<via x="111.15" y="104.65" extent="1-16" drill="0.3048"/>
-<via x="113.75" y="104.65" extent="1-16" drill="0.3048"/>
-<via x="113.75" y="102.7" extent="1-16" drill="0.3048"/>
+<via x="135.85" y="112.45" extent="1-16" drill="0.4"/>
+<via x="133.9" y="110.5" extent="1-16" drill="0.4"/>
+<via x="134.55" y="113.75" extent="1-16" drill="0.4"/>
+<via x="132.6" y="111.8" extent="1-16" drill="0.4"/>
+<via x="139.1" y="105.95" extent="1-16" drill="0.4"/>
+<via x="141.7" y="105.95" extent="1-16" drill="0.4"/>
+<via x="139.1" y="28.6" extent="1-16" drill="0.4"/>
+<via x="141.7" y="28.6" extent="1-16" drill="0.4"/>
+<via x="133.9" y="33.15" extent="1-16" drill="0.4"/>
+<via x="135.85" y="35.1" extent="1-16" drill="0.4"/>
+<via x="134.55" y="36.4" extent="1-16" drill="0.4"/>
+<via x="132.6" y="34.45" extent="1-16" drill="0.4"/>
+<via x="148.55" y="32.85" extent="1-16" drill="0.4"/>
+<via x="148.5" y="110.15" extent="1-16" drill="0.4"/>
+<via x="110.5" y="24.05" extent="1-16" drill="0.4"/>
+<via x="113.1" y="24.05" extent="1-16" drill="0.4"/>
+<via x="113.1" y="26" extent="1-16" drill="0.4"/>
+<via x="110.5" y="26" extent="1-16" drill="0.4"/>
+<via x="111.15" y="102.7" extent="1-16" drill="0.4"/>
+<via x="111.15" y="104.65" extent="1-16" drill="0.4"/>
+<via x="113.75" y="104.65" extent="1-16" drill="0.4"/>
+<via x="113.75" y="102.7" extent="1-16" drill="0.4"/>
 <contactref element="LED1" pad="C"/>
 <contactref element="LED5" pad="C"/>
 <contactref element="LED2" pad="C"/>
@@ -7621,6 +7614,90 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <contactref element="LED4" pad="C"/>
 <via x="230.75" y="130.65" extent="1-16" drill="0.3048"/>
 <via x="232.7" y="130.65" extent="1-16" drill="0.3048"/>
+<via x="110.5" y="27.95" extent="1-16" drill="0.4"/>
+<via x="113.1" y="27.95" extent="1-16" drill="0.4"/>
+<via x="113.1" y="29.9" extent="1-16" drill="0.4"/>
+<via x="110.5" y="29.9" extent="1-16" drill="0.4"/>
+<via x="193.05" y="143" extent="1-16" drill="0.3048"/>
+<via x="195.65" y="143" extent="1-16" drill="0.3048"/>
+<via x="198.25" y="143" extent="1-16" drill="0.3048"/>
+<via x="200.85" y="143" extent="1-16" drill="0.3048"/>
+<via x="203.45" y="143" extent="1-16" drill="0.3048"/>
+<via x="206.05" y="143" extent="1-16" drill="0.3048"/>
+<via x="208.65" y="143" extent="1-16" drill="0.3048"/>
+<via x="211.25" y="143" extent="1-16" drill="0.3048"/>
+<via x="189.15" y="59.15" extent="1-16" drill="0.3048"/>
+<via x="191.75" y="59.15" extent="1-16" drill="0.3048"/>
+<via x="194.35" y="59.15" extent="1-16" drill="0.3048"/>
+<via x="196.95" y="59.15" extent="1-16" drill="0.3048"/>
+<via x="199.55" y="59.15" extent="1-16" drill="0.3048"/>
+<via x="202.15" y="59.15" extent="1-16" drill="0.3048"/>
+<via x="204.75" y="59.15" extent="1-16" drill="0.3048"/>
+<via x="207.35" y="59.15" extent="1-16" drill="0.3048"/>
+<via x="159.9" y="31.2" extent="1-16" drill="0.4"/>
+<via x="162.5" y="31.2" extent="1-16" drill="0.4"/>
+<via x="162.5" y="33.15" extent="1-16" drill="0.4"/>
+<via x="159.9" y="33.15" extent="1-16" drill="0.4"/>
+<via x="159.9" y="35.1" extent="1-16" drill="0.4"/>
+<via x="162.5" y="35.1" extent="1-16" drill="0.4"/>
+<via x="162.5" y="37.05" extent="1-16" drill="0.4"/>
+<via x="159.9" y="37.05" extent="1-16" drill="0.4"/>
+<via x="110.5" y="49.4" extent="1-16" drill="0.4"/>
+<via x="113.1" y="49.4" extent="1-16" drill="0.4"/>
+<via x="113.1" y="51.35" extent="1-16" drill="0.4"/>
+<via x="110.5" y="51.35" extent="1-16" drill="0.4"/>
+<via x="110.5" y="53.3" extent="1-16" drill="0.4"/>
+<via x="113.1" y="53.3" extent="1-16" drill="0.4"/>
+<via x="113.1" y="55.25" extent="1-16" drill="0.4"/>
+<via x="110.5" y="55.25" extent="1-16" drill="0.4"/>
+<via x="79.95" y="39" extent="1-16" drill="0.4"/>
+<via x="77.35" y="39" extent="1-16" drill="0.4"/>
+<via x="77.35" y="37.05" extent="1-16" drill="0.4"/>
+<via x="79.95" y="37.05" extent="1-16" drill="0.4"/>
+<via x="79.95" y="35.1" extent="1-16" drill="0.4"/>
+<via x="77.35" y="35.1" extent="1-16" drill="0.4"/>
+<via x="77.35" y="33.15" extent="1-16" drill="0.4"/>
+<via x="79.95" y="33.15" extent="1-16" drill="0.4"/>
+<via x="77.35" y="59.15" extent="1-16" drill="0.4"/>
+<via x="77.35" y="61.75" extent="1-16" drill="0.4"/>
+<via x="75.4" y="61.75" extent="1-16" drill="0.4"/>
+<via x="75.4" y="59.15" extent="1-16" drill="0.4"/>
+<via x="73.45" y="59.15" extent="1-16" drill="0.4"/>
+<via x="73.45" y="61.75" extent="1-16" drill="0.4"/>
+<via x="71.5" y="61.75" extent="1-16" drill="0.4"/>
+<via x="71.5" y="59.15" extent="1-16" drill="0.4"/>
+<via x="46.8" y="59.15" extent="1-16" drill="0.4"/>
+<via x="46.8" y="61.75" extent="1-16" drill="0.4"/>
+<via x="44.85" y="61.75" extent="1-16" drill="0.4"/>
+<via x="44.85" y="59.15" extent="1-16" drill="0.4"/>
+<via x="42.9" y="59.15" extent="1-16" drill="0.4"/>
+<via x="42.9" y="61.75" extent="1-16" drill="0.4"/>
+<via x="40.95" y="61.75" extent="1-16" drill="0.4"/>
+<via x="40.95" y="59.15" extent="1-16" drill="0.4"/>
+<via x="63.7" y="126.75" extent="1-16" drill="0.4"/>
+<via x="63.7" y="129.35" extent="1-16" drill="0.4"/>
+<via x="61.75" y="129.35" extent="1-16" drill="0.4"/>
+<via x="61.75" y="126.75" extent="1-16" drill="0.4"/>
+<via x="59.8" y="126.75" extent="1-16" drill="0.4"/>
+<via x="59.8" y="129.35" extent="1-16" drill="0.4"/>
+<via x="57.85" y="129.35" extent="1-16" drill="0.4"/>
+<via x="57.85" y="126.75" extent="1-16" drill="0.4"/>
+<via x="85.8" y="115.7" extent="1-16" drill="0.4"/>
+<via x="88.4" y="115.7" extent="1-16" drill="0.4"/>
+<via x="88.4" y="117.65" extent="1-16" drill="0.4"/>
+<via x="85.8" y="117.65" extent="1-16" drill="0.4"/>
+<via x="85.8" y="119.6" extent="1-16" drill="0.4"/>
+<via x="88.4" y="119.6" extent="1-16" drill="0.4"/>
+<via x="88.4" y="121.55" extent="1-16" drill="0.4"/>
+<via x="85.8" y="121.55" extent="1-16" drill="0.4"/>
+<via x="118.95" y="123.5" extent="1-16" drill="0.4"/>
+<via x="121.55" y="123.5" extent="1-16" drill="0.4"/>
+<via x="121.55" y="125.45" extent="1-16" drill="0.4"/>
+<via x="118.95" y="125.45" extent="1-16" drill="0.4"/>
+<via x="118.95" y="127.4" extent="1-16" drill="0.4"/>
+<via x="121.55" y="127.4" extent="1-16" drill="0.4"/>
+<via x="121.55" y="129.35" extent="1-16" drill="0.4"/>
+<via x="118.95" y="129.35" extent="1-16" drill="0.4"/>
 </signal>
 <signal name="MISO">
 <contactref element="U15" pad="49"/>
@@ -7851,7 +7928,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="86.45" y1="7.15" x2="89.7" y2="7.15" width="1.27" layer="1"/>
 <wire x1="89.7" y1="7.15" x2="95.55" y2="7.15" width="1.27" layer="1"/>
 <contactref element="R10" pad="2"/>
-<wire x1="291.85" y1="103.05" x2="291.85" y2="92.3" width="0.4064" layer="1"/>
+<wire x1="291.85" y1="105.65" x2="291.85" y2="92.3" width="0.4064" layer="1"/>
 <wire x1="291.85" y1="92.3" x2="289.25" y2="89.7" width="0.4064" layer="1"/>
 <via x="289.25" y="89.7" extent="1-16" drill="0.5"/>
 <wire x1="289.25" y1="89.7" x2="286.65" y2="87.1" width="0.4064" layer="16"/>
@@ -7894,7 +7971,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="130.423040625" y1="112.25" x2="119.6" y2="112.25" width="0.4064" layer="1"/>
 <wire x1="142.071175" y1="22.332628125" x2="143.65" y2="20.753803125" width="0.4064" layer="1"/>
 <wire x1="143.65" y1="20.753803125" x2="143.65" y2="20.15" width="0.4064" layer="1"/>
-<via x="143.65" y="20.15" extent="1-16" drill="0.3048"/>
+<via x="143.65" y="20.15" extent="1-16" drill="0.35"/>
 <wire x1="143.65" y1="20.15" x2="143.65" y2="19.05" width="0.4064" layer="16"/>
 <wire x1="146.25" y1="19.05" x2="143.65" y2="19.05" width="0.4064" layer="16"/>
 <wire x1="127.4" y1="35.55" x2="124.15" y2="35.55" width="0.4064" layer="1"/>
@@ -7986,7 +8063,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="138.4462" y1="98.8038" x2="138.45" y2="98.8038" width="0.4064" layer="16"/>
 <wire x1="138.45" y1="98.8038" x2="144.2962" y2="98.8038" width="0.4064" layer="16"/>
 <wire x1="144.3" y1="22.55" x2="144.3" y2="21.45" width="0.4064" layer="16"/>
-<via x="144.3" y="21.45" extent="1-16" drill="0.3048"/>
+<via x="144.3" y="21.45" extent="1-16" drill="0.35"/>
 <wire x1="144.3" y1="21.45" x2="143.873040625" y2="21.45" width="0.4064" layer="1"/>
 <wire x1="143.873040625" y1="21.45" x2="142.53079375" y2="22.792246875" width="0.4064" layer="1"/>
 <wire x1="146.9" y1="22.55" x2="144.3" y2="22.55" width="0.4064" layer="16"/>
@@ -8663,7 +8740,9 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="283.8" y1="34.05" x2="282.1" y2="35.75" width="2.54" layer="1"/>
 <wire x1="282.1" y1="59.8" x2="282.1" y2="35.75" width="2.54" layer="1"/>
 <contactref element="R3" pad="2"/>
-<wire x1="280.15" y1="103.05" x2="280.15" y2="96.2" width="0.4064" layer="1"/>
+<wire x1="280.15" y1="105.65" x2="280.15" y2="100.1" width="0.4064" layer="1"/>
+<wire x1="280.15" y1="100.1" x2="280.15" y2="98.8" width="0.4064" layer="1"/>
+<wire x1="280.15" y1="98.8" x2="280.15" y2="96.2" width="0.4064" layer="1"/>
 <wire x1="280.15" y1="96.2" x2="280.15" y2="94.25" width="0.4064" layer="1"/>
 <wire x1="280.15" y1="94.25" x2="275.6" y2="89.7" width="0.4064" layer="1"/>
 <via x="275.6" y="89.7" extent="1-16" drill="0.5"/>
@@ -8724,8 +8803,6 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="269.624996875" y1="102.374996875" x2="270.4" y2="103.15" width="0.254" layer="1"/>
 <wire x1="221.1408" y1="129.865" x2="221.1408" y2="132.1908" width="0.254" layer="1"/>
 <wire x1="221.1408" y1="132.1908" x2="221.15" y2="132.85" width="0.254" layer="1"/>
-<wire x1="222.1568" y1="118.435" x2="222.1568" y2="115.7568" width="0.254" layer="1"/>
-<wire x1="222.1568" y1="115.7568" x2="222.15" y2="115.75" width="0.254" layer="1"/>
 <wire x1="221.1408" y1="127.9092" x2="219.185" y2="127.9092" width="0.254" layer="1"/>
 <wire x1="221.1408" y1="129.865" x2="221.1408" y2="127.9092" width="0.254" layer="1"/>
 <wire x1="228.6592" y1="118.435" x2="228.6592" y2="121.85" width="0.254" layer="1"/>
@@ -8735,8 +8812,8 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="222.1568" y1="127.9024" x2="222.15" y2="127.9092" width="0.254" layer="1"/>
 <wire x1="228.6592" y1="121.85" x2="228.6592" y2="127.9" width="0.254" layer="1"/>
 <wire x1="228.6592" y1="127.9" x2="228.65" y2="127.9092" width="0.254" layer="1"/>
-<wire x1="219.185" y1="121.8894" x2="216.1606" y2="121.8894" width="0.254" layer="1"/>
-<wire x1="216.1606" y1="121.8894" x2="216.15" y2="122.25" width="0.254" layer="1"/>
+<wire x1="219.185" y1="121.8894" x2="216.45" y2="121.8894" width="0.254" layer="1"/>
+<wire x1="216.45" y1="121.8894" x2="216.1606" y2="121.8894" width="0.254" layer="1"/>
 <wire x1="174.65" y1="107.05" x2="174.85" y2="107.05" width="0.508" layer="1"/>
 <via x="172.25" y="78.65" extent="1-16" drill="0.7"/>
 <wire x1="174.85" y1="107.05" x2="176.15" y2="107.05" width="0.508" layer="1"/>
@@ -8834,10 +8911,6 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="230.964996875" y1="118.435" x2="228.6592" y2="118.435" width="0.254" layer="1"/>
 <wire x1="221.1408" y1="53.165" x2="221.1408" y2="55.4908" width="0.254" layer="1"/>
 <wire x1="221.1408" y1="55.4908" x2="221.15" y2="55.5" width="0.254" layer="1"/>
-<wire x1="216.5106" y1="45.1894" x2="216.15" y2="45.55" width="0.254" layer="1"/>
-<wire x1="219.185" y1="45.1894" x2="216.5106" y2="45.1894" width="0.254" layer="1"/>
-<wire x1="222.1568" y1="41.735" x2="222.1568" y2="39.0568" width="0.254" layer="1"/>
-<wire x1="222.1568" y1="39.0568" x2="222.15" y2="39.05" width="0.254" layer="1"/>
 <wire x1="172.25" y1="55.55" x2="172.3" y2="55.5" width="0.508" layer="1"/>
 <wire x1="228.6592" y1="41.735" x2="230.964996875" y2="41.735" width="0.254" layer="1"/>
 <wire x1="230.964996875" y1="41.735" x2="231.29895625" y2="41.401040625" width="0.254" layer="1"/>
@@ -8918,8 +8991,16 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="117.45" y1="42.9" x2="107.25" y2="42.9" width="0.4064" layer="1"/>
 <wire x1="117.45" y1="40.3" x2="117.45" y2="42.9" width="0.4064" layer="1"/>
 <contactref element="Q1" pad="C"/>
-<wire x1="283.8" y1="96.15" x2="283.75" y2="96.2" width="0.4064" layer="1"/>
-<wire x1="283.75" y1="96.2" x2="280.15" y2="96.2" width="0.4064" layer="1"/>
+<wire x1="280.2" y1="100.05" x2="280.15" y2="100.1" width="0.4064" layer="1"/>
+<wire x1="283.8" y1="100.05" x2="280.2" y2="100.05" width="0.4064" layer="1"/>
+<wire x1="215.8606" y1="45.1894" x2="214.85" y2="46.2" width="0.254" layer="1"/>
+<wire x1="219.185" y1="45.1894" x2="215.8606" y2="45.1894" width="0.254" layer="1"/>
+<wire x1="216.45" y1="121.8894" x2="215.8606" y2="121.8894" width="0.254" layer="1"/>
+<wire x1="215.8606" y1="121.8894" x2="214.85" y2="122.9" width="0.254" layer="1"/>
+<wire x1="222.1568" y1="41.735" x2="222.1568" y2="40.2568" width="0.254" layer="1"/>
+<wire x1="222.1568" y1="40.2568" x2="221.05" y2="39.15" width="0.254" layer="1"/>
+<wire x1="222.1568" y1="118.435" x2="222.1568" y2="116.9568" width="0.254" layer="1"/>
+<wire x1="222.1568" y1="116.9568" x2="221.05" y2="115.85" width="0.254" layer="1"/>
 </signal>
 <signal name="DAC1_15">
 <contactref element="U15" pad="23"/>
@@ -10548,7 +10629,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <contactref element="C45" pad="2"/>
 <contactref element="U5" pad="31"/>
 <wire x1="55.07" y1="112.775" x2="57.1" y2="112.775" width="0.4064" layer="1"/>
-<wire x1="57.1" y1="112.775" x2="57.1" y2="112.75" width="0.4064" layer="1"/>
+<wire x1="57.1" y1="112.775" x2="57.1" y2="112.65" width="0.4064" layer="1"/>
 </signal>
 <signal name="ADC_2_COM_MODE">
 <contactref element="U5" pad="40"/>
@@ -10601,7 +10682,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <contactref element="C76" pad="2"/>
 <contactref element="U8" pad="31"/>
 <wire x1="55.07" y1="34.775" x2="57.1" y2="34.775" width="0.4064" layer="1"/>
-<wire x1="57.1" y1="34.775" x2="57.1" y2="34.75" width="0.4064" layer="1"/>
+<wire x1="57.1" y1="34.775" x2="57.05" y2="34.65" width="0.4064" layer="1"/>
 </signal>
 <signal name="ADC_1_COM_MODE">
 <contactref element="U8" pad="40"/>
@@ -11083,18 +11164,18 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="284.05" y1="61.1" x2="284.05" y2="89.7" width="0.4064" layer="16"/>
 <wire x1="287.15" y1="59.25" x2="285.9" y2="59.25" width="0.4064" layer="16"/>
 <wire x1="285.9" y1="59.25" x2="284.05" y2="61.1" width="0.4064" layer="16"/>
-<contactref element="Q1" pad="B"/>
-<wire x1="286" y1="91.65" x2="286" y2="95.2" width="0.4064" layer="1"/>
+<contactref element="R12" pad="2"/>
+<wire x1="286" y1="91.65" x2="286" y2="93.3" width="0.4064" layer="1"/>
 </signal>
 <signal name="PG_CURR_LIM">
 <contactref element="R1" pad="1"/>
 <contactref element="LED4" pad="A"/>
-<wire x1="286" y1="104.95" x2="286" y2="119.5" width="0.4064" layer="1"/>
+<wire x1="286" y1="111.45" x2="286" y2="119.5" width="0.4064" layer="1"/>
 </signal>
 <signal name="DVCC_CURR_LIM">
 <contactref element="R3" pad="1"/>
 <contactref element="LED3" pad="A"/>
-<wire x1="280.15" y1="104.95" x2="280.15" y2="119.5" width="0.4064" layer="1"/>
+<wire x1="280.15" y1="107.55" x2="280.15" y2="119.5" width="0.4064" layer="1"/>
 </signal>
 <signal name="+5V_CURR_LIM">
 <contactref element="R5" pad="1"/>
@@ -11104,7 +11185,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <signal name="VDD_CURR_LIM">
 <contactref element="R10" pad="1"/>
 <contactref element="LED5" pad="A"/>
-<wire x1="291.85" y1="104.95" x2="291.85" y2="119.5" width="0.4064" layer="1"/>
+<wire x1="291.85" y1="107.55" x2="291.85" y2="119.5" width="0.4064" layer="1"/>
 </signal>
 <signal name="RPI_PWR">
 <contactref element="SV1" pad="4"/>
@@ -11408,7 +11489,12 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <signal name="POWER_GOOD_SUPP">
 <contactref element="R1" pad="2"/>
 <contactref element="Q1" pad="E"/>
-<wire x1="286" y1="97.1" x2="286" y2="103.05" width="0.4064" layer="1"/>
+<wire x1="286" y1="101" x2="286" y2="109.55" width="0.4064" layer="1"/>
+</signal>
+<signal name="PG_SIG">
+<contactref element="R12" pad="1"/>
+<contactref element="Q1" pad="B"/>
+<wire x1="286" y1="95.2" x2="286" y2="99.1" width="0.4064" layer="1"/>
 </signal>
 </signals>
 </board>
